@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/public",
+    "composite": true
+  },
+  "include": [
+    "src/renderer.tsx",
+    "src/components/**/*",
+    "src/App.tsx",
+    "src/global.d.ts"
+  ]
+} 
