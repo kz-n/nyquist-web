@@ -1,1 +1,0 @@
-{"version":3,"file":"preload.js","sources":["../../src/preload.ts"],"sourcesContent":[null],"names":["contextBridge","ipcRenderer"],"mappings":";;;;AAGAA,sBAAa,CAAC,iBAAiB,CAAC,KAAK,EAAE;AACnC,IAAA,QAAQ,EAAE,CAAC,IAAY,KAAKC,oBAAW,CAAC,MAAM,CAAC,aAAa,EAAE,IAAI,CAAC;AACnE,IAAA,SAAS,EAAE,CAAC,IAAY,KAAKA,oBAAW,CAAC,MAAM,CAAC,YAAY,EAAE,IAAI;AACrE,CAAA,CAAC;;"}
