@@ -1,8 +1,10 @@
+import * as fs from "node:fs";
+import {join} from 'path'
+import {app, BrowserWindow, ipcMain, shell} from 'electron'
+import * as path from "node:path";
+
 process.env.DIST = join(__dirname, '../dist')
 process.env.PUBLIC = app.isPackaged ? process.env.DIST : join(process.env.DIST, '../public')
-
-import { join } from 'path'
-import { app, BrowserWindow, shell } from 'electron'
 
 let win: BrowserWindow | null
 // Here, you can also use other preload
@@ -45,4 +47,22 @@ app.whenReady().then(() => {
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
+})
+ipcMain.handle('test-invoke', (event, args) => {
+
+
+  return fs.readdirSync('D:\\nicotine\\downloads')
+      .filter((file: any) => {
+        const ext = path.extname(file).toLowerCase();
+        return ext === '.flac' || ext === '.mp3' || ext === '.wav';
+      })
+      .map((file: any) => path.join('D:\\nicotine\\downloads', file));
+})
+ipcMain.handle('get-audio-stream', async (_event, filePath) => {
+  return new Promise((resolve, reject) => {
+    fs.readFile(filePath, (err, data) => {
+      if (err) reject(err);
+      else resolve(data.buffer);
+    });
+  });
 })

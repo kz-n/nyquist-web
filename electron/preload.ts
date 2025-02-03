@@ -5,7 +5,7 @@
  * 
  * https://www.electronjs.org/docs/latest/tutorial/tutorial-preload
  */
-
+import { contextBridge, ipcRenderer } from 'electron'
 function domReady(condition: DocumentReadyState[] = ['complete', 'interactive']) {
   return new Promise(resolve => {
     if (condition.includes(document.readyState)) {
@@ -98,3 +98,17 @@ window.onmessage = ev => {
 }
 
 setTimeout(removeLoading, 4999)
+contextBridge.exposeInMainWorld('api', {
+  getMusic: (args: string) => ipcRenderer.invoke('test-invoke', args),
+  getAudioStream: (filePath: string) => ipcRenderer.invoke('get-audio-stream', filePath) as Promise<ArrayBuffer>,
+});
+
+// Add type declarations
+declare global {
+  interface Window {
+    api: {
+      getMusic: (args: string) => Promise<string[]>;
+      getAudioStream: (filePath: string) => Promise<ArrayBuffer>;
+    }
+  }
+}
