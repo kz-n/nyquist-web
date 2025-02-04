@@ -45,6 +45,7 @@ export class WebAudioAPI {
             }
 
             const arrayBuffer = await window.api.getAudioStream(filePath);
+            // @ts-ignore
             this.currentBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
             this.startPlayback(0);
         } catch (error) {

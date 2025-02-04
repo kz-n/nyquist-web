@@ -1,6 +1,6 @@
 import { Track } from "../object/Track";
 import { Jukebox } from "../object/Jukebox";
-import { createSignal, onCleanup } from "solid-js";
+import { createSignal } from "solid-js";
 
 type StatusBarProps = {
     currentTrack: Track | null;

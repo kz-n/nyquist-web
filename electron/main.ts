@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import {join} from 'path'
-import {app, BrowserWindow, ipcMain, shell} from 'electron'
+import {app, BrowserWindow, ipcMain, shell, crashReporter} from 'electron'
 import * as path from "node:path";
 
 process.env.DIST = join(__dirname, '../dist')
@@ -66,3 +66,5 @@ ipcMain.handle('get-audio-stream', async (_event, filePath) => {
     });
   });
 })
+
+crashReporter.start({ uploadToServer: false });
