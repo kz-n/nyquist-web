@@ -1,10 +1,12 @@
 import * as fs from "node:fs";
 import {join} from 'path'
-import {app, BrowserWindow, ipcMain, shell, crashReporter} from 'electron'
+import {app, BrowserWindow, crashReporter, ipcMain, shell} from 'electron'
+import electron from "electron";
 import * as path from "node:path";
-import * as mm from "music-metadata";
 
+const { loadMusicMetadata } = require('music-metadata');
 process.env.DIST = join(__dirname, '../dist')
+
 process.env.PUBLIC = app.isPackaged ? process.env.DIST : join(process.env.DIST, '../public')
 
 let win: BrowserWindow | null
@@ -34,6 +36,9 @@ function createWindow() {
     win.loadFile(join(process.env.DIST, 'index.html'))
   }
 }
+
+
+
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
@@ -67,21 +72,15 @@ ipcMain.handle('get-audio-stream', async (_event, filePath) => {
     });
   });
 })
+
 ipcMain.handle('get-music-metadata', async (_event, filePath) => {
   try {
-    const metadata = await mm.parseFile(filePath);
-    return {
-      title: metadata.common.title,
-      artist: metadata.common.artist,
-      album: metadata.common.album,
-      duration: metadata.format.duration,
-      bitrate: metadata.format.bitrate,
-      sampleRate: metadata.format.sampleRate,
-      format: metadata.format.container
-    };
+    // Dynamically loads the ESM module in a CommonJS project
+    const mm = await loadMusicMetadata();
+
+    return await mm.parseFile(filePath);
   } catch (error) {
     console.error('Error parsing metadata:', error);
     return null;
   }
 })
-crashReporter.start({ uploadToServer: false });

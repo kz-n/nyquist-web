@@ -14,7 +14,7 @@
     "build": "tsc && vite build && electron-builder"
   },
   "devDependencies": {
-    "electron": "^22.0.0",
+    "electron": "^34.0.2",
     "electron-builder": "^23.6.0",
     "sass": "^1.57.1",
     "solid-js": "^1.6.8",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "audiomotion-analyzer": "^4.5.0",
-    "music-metadata": "^10.8.2"
+    "music-metadata": "^10.8.2",
+    "uuid": "^11.0.5"
   }
 }
