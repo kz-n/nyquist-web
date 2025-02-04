@@ -5,9 +5,11 @@ import {WebAudioAPI} from "../object/WebAudioAPI";
 import {Track} from "../object/Track";
 import {Jukebox} from "../object/Jukebox";
 import {StatusBar} from "./StatusBar";
+import {QueueComponent} from "./QueueComponent";
+import {SpectrumAnalyzer} from "./SpectrumAnalyzer";
 
 export const AudioRoot = () => {
-    const [playlist] = createSignal(new Playlist([], new Track("")));
+    const [playlist] = createSignal(new Playlist([], [], new Track("")));
     const [webAudioAPI] = createSignal(new WebAudioAPI());
     const [jukeboxState, setJukeboxState] = createSignal({
         jukebox: new Jukebox(playlist(), webAudioAPI()),
@@ -70,6 +72,9 @@ export const AudioRoot = () => {
                     isPaused={jukeboxState().isPaused}
                     jukebox={jukeboxState().jukebox}
                 />
+                <SpectrumAnalyzer webAudioAPI={webAudioAPI()}></SpectrumAnalyzer>
+                <QueueComponent jukebox={jukeboxState().jukebox}></QueueComponent>
+
                 <MusicList jukebox={jukeboxState().jukebox} />
             </div>
         </Show>

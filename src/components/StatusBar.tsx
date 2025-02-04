@@ -1,6 +1,7 @@
 import { Track } from "../object/Track";
 import { Jukebox } from "../object/Jukebox";
 import { createSignal } from "solid-js";
+import AudioMotionAnalyzer from "audiomotion-analyzer";
 
 type StatusBarProps = {
     currentTrack: Track | null;
@@ -36,7 +37,6 @@ export const StatusBar = (props: StatusBarProps) => {
             props.jukebox.seek(time);
         }
     };
-
     return (
         <div class="status-bar">
             <div class="status-bar__now-playing">

@@ -8,10 +8,11 @@ type MusicListProps = {
 export const MusicList = (props: MusicListProps) => {
     return (
         <div class="music-list">
+            <h1>Music List</h1>
             <For each={props.jukebox.playlist.tracks}>
                 {(item) => (
                     <button
-                        onClick={() => props.jukebox.play(item)}
+                        onClick={() => props.jukebox.playlist.addToQueue(item)}
                         class="music-list__button"
                     >
                         {item.path.split('\\').pop()}

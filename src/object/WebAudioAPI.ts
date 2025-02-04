@@ -5,13 +5,16 @@ export class WebAudioAPI {
     private pauseTime: number = 0;
     private currentBuffer: AudioBuffer | null = null;
     private isPaused: boolean = false;
+    private analyzerNodes: AnalyserNode[] = [];
     onTimeUpdate: (currentTime: number, duration: number) => void = () => {};
 
     constructor() {
         this.audioContext = new AudioContext();
         this.startTimeUpdateInterval();
     }
-
+    public getAudioContext(): AudioContext {
+        return this.audioContext;
+    }
     private startTimeUpdateInterval() {
         setInterval(() => {
             if (this.currentSource && !this.isPaused) {
@@ -58,7 +61,15 @@ export class WebAudioAPI {
 
         this.currentSource = this.audioContext.createBufferSource();
         this.currentSource.buffer = this.currentBuffer;
+        
+        // Connect to all analyzer nodes first
+        this.analyzerNodes.forEach(analyzer => {
+            this.currentSource?.connect(analyzer);
+        });
+
+        // Then connect to the destination
         this.currentSource.connect(this.audioContext.destination);
+        
         this.startTime = this.audioContext.currentTime - offset;
         this.currentSource.start(0, offset);
         this.isPaused = false;
@@ -104,6 +115,13 @@ export class WebAudioAPI {
         this.stop();
         if (this.audioContext.state !== 'closed') {
             this.audioContext.close();
+        }
+    }
+
+    public connectAnalyzer(analyzer: AnalyserNode) {
+        this.analyzerNodes.push(analyzer);
+        if (this.currentSource) {
+            this.currentSource.connect(analyzer);
         }
     }
 }
