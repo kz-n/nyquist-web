@@ -2,6 +2,7 @@ import * as fs from "node:fs";
 import {join} from 'path'
 import {app, BrowserWindow, ipcMain, shell, crashReporter} from 'electron'
 import * as path from "node:path";
+import * as mm from "music-metadata";
 
 process.env.DIST = join(__dirname, '../dist')
 process.env.PUBLIC = app.isPackaged ? process.env.DIST : join(process.env.DIST, '../public')
@@ -66,5 +67,21 @@ ipcMain.handle('get-audio-stream', async (_event, filePath) => {
     });
   });
 })
-
+ipcMain.handle('get-music-metadata', async (_event, filePath) => {
+  try {
+    const metadata = await mm.parseFile(filePath);
+    return {
+      title: metadata.common.title,
+      artist: metadata.common.artist,
+      album: metadata.common.album,
+      duration: metadata.format.duration,
+      bitrate: metadata.format.bitrate,
+      sampleRate: metadata.format.sampleRate,
+      format: metadata.format.container
+    };
+  } catch (error) {
+    console.error('Error parsing metadata:', error);
+    return null;
+  }
+})
 crashReporter.start({ uploadToServer: false });

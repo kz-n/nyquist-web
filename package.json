@@ -24,6 +24,7 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "audiomotion-analyzer": "^4.5.0"
+    "audiomotion-analyzer": "^4.5.0",
+    "music-metadata": "^10.8.2"
   }
 }

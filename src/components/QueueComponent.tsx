@@ -1,5 +1,6 @@
 import {Jukebox} from "../object/Jukebox";
 import {createEffect, createSignal, For} from "solid-js";
+import {Track} from "../object/Track";
 
 type PlaylistProps = {
     jukebox: Jukebox
@@ -20,9 +21,10 @@ export const QueueComponent = (props: PlaylistProps) => {
         <div class="playlist">
             <h1>Queue</h1>
             <For each={queue()}>
-                {(item) => (
+                {(item: Track) => (
                     <button
-                        onClick={() => props.jukebox.play(item)}
+                        onClick={() => console.log(window.api.getMusicMetadata(item.path)) //props.jukebox.play(item)
+                    }
                         class="music-list__button"
                     >
                         {item.path.split('\\').pop()}

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ceee9c5-2677-455c-b7ec-bf3ea0d4bbe4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/QueueComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SpectrumAnalyzer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electron/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/electron/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electron/preload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/electron/preload.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AudioRoot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioRoot.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MusicList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MusicList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StatusBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StatusBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Playlist.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Playlist.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/WebAudioAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/WebAudioAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/QueueComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QueueComponent.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +127,7 @@
       <workItem from="1738449704210" duration="859000" />
       <workItem from="1738500454621" duration="10352000" />
       <workItem from="1738605388194" duration="3206000" />
-      <workItem from="1738686624317" duration="3888000" />
+      <workItem from="1738686624317" duration="5268000" />
     </task>
     <servers />
   </component>
