@@ -101,7 +101,13 @@ window.onmessage = ev => {
 setTimeout(removeLoading, 4999)
 contextBridge.exposeInMainWorld('api', {
   getMusic: (args: string) => ipcRenderer.invoke('test-invoke', args),
-  getAudioStream: (filePath: string) => ipcRenderer.invoke('get-audio-stream', filePath) as Promise<ArrayBuffer>,
+  getAudioStream: (filePath: string) => ipcRenderer.invoke('get-audio-stream', filePath) as Promise<{ fileSize: number }>,
+  onAudioChunk: (callback: (chunk: { chunk: Uint8Array, isLastChunk: boolean }) => void) => {
+    ipcRenderer.on('audio-chunk', (_event, data) => callback(data));
+  },
+  removeAudioChunkListener: () => {
+    ipcRenderer.removeAllListeners('audio-chunk');
+  },
   getMusicMetadata: (filePath: string) => ipcRenderer.invoke('get-music-metadata', filePath),
   getDepot: () => ipcRenderer.invoke('depot-get'),
   depotAdd: (data: string | { data: number[], format: string }, type: 'path' | 'blob' = 'path') => 
@@ -115,7 +121,9 @@ declare global {
   interface Window {
     api: {
       getMusic: (args: string) => Promise<string[]>;
-      getAudioStream: (filePath: string) => Promise<ArrayBuffer>;
+      getAudioStream: (filePath: string) => Promise<{ fileSize: number }>;
+      onAudioChunk: (callback: (chunk: { chunk: Uint8Array, isLastChunk: boolean }) => void) => void;
+      removeAudioChunkListener: () => void;
       getMusicMetadata: (filePath: string) => Promise<{
         common?: {
           picture?: Array<{

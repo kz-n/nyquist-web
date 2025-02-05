@@ -6,6 +6,8 @@ export class WebAudioAPI {
     private currentBuffer: AudioBuffer | null = null;
     private isPaused: boolean = false;
     private analyzerNodes: AnalyserNode[] = [];
+    private audioChunks: Uint8Array[] = [];
+    private isStreaming: boolean = false;
     onTimeUpdate: (currentTime: number, duration: number) => void = () => {};
 
     constructor() {
@@ -35,10 +37,22 @@ export class WebAudioAPI {
         return this.currentBuffer?.duration || 0;
     }
 
-    async createAudioBuffer(this: any, filePath: string) {
-        const arrayBuffer = await window.api.getAudioStream(filePath);
-        const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
-        return audioBuffer;
+    private async processAudioChunks() {
+        const concatenated = new Uint8Array(this.audioChunks.reduce((acc, chunk) => acc + chunk.length, 0));
+        let offset = 0;
+        for (const chunk of this.audioChunks) {
+            concatenated.set(chunk, offset);
+            offset += chunk.length;
+        }
+        
+        try {
+            this.currentBuffer = await this.audioContext.decodeAudioData(concatenated.buffer);
+            if (this.isStreaming) {
+                this.startPlayback(0);
+            }
+        } catch (error) {
+            console.error('Error decoding audio data:', error);
+        }
     }
 
     async play(filePath: string) {
@@ -47,12 +61,24 @@ export class WebAudioAPI {
                 this.stop();
             }
 
-            const arrayBuffer = await window.api.getAudioStream(filePath);
-            // @ts-ignore
-            this.currentBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
-            this.startPlayback(0);
+            this.audioChunks = [];
+            this.isStreaming = true;
+
+            // Set up chunk listener
+            window.api.onAudioChunk(({ chunk, isLastChunk }) => {
+                this.audioChunks.push(new Uint8Array(chunk));
+                if (isLastChunk) {
+                    this.processAudioChunks();
+                }
+            });
+
+            // Start the stream
+            await window.api.getAudioStream(filePath);
+
         } catch (error) {
             console.error('Error playing audio:', error);
+            this.isStreaming = false;
+            window.api.removeAudioChunkListener();
         }
     }
 
@@ -102,6 +128,10 @@ export class WebAudioAPI {
     }
 
     stop() {
+        window.api.removeAudioChunkListener();
+        this.isStreaming = false;
+        this.audioChunks = [];
+        
         if (this.currentSource) {
             this.currentSource.stop();
             this.currentSource = null;

@@ -82,12 +82,26 @@ ipcMain.handle('test-invoke', (event, args) => {
       .map((file: any) => path.join('D:\\nicotine\\downloads', file));
 })
 ipcMain.handle('get-audio-stream', async (_event, filePath) => {
-  return new Promise((resolve, reject) => {
-    fs.readFile(filePath, (err, data) => {
-      if (err) reject(err);
-      else resolve(data.buffer);
-    });
-  });
+  try {
+    const stats = await fs.promises.stat(filePath);
+    const fileSize = stats.size;
+    const stream = fs.createReadStream(filePath);
+    const chunks: Buffer[] = [];
+    
+    for await (const chunk of stream) {
+      chunks.push(chunk);
+      // Send chunk to renderer
+      _event.sender.send('audio-chunk', {
+        chunk: chunk,
+        isLastChunk: chunks.length * chunk.length >= fileSize
+      });
+    }
+    
+    return { fileSize };
+  } catch (error) {
+    console.error('Error streaming audio:', error);
+    throw error;
+  }
 })
 
 ipcMain.handle('get-music-metadata', async (_event, filePath) => {
