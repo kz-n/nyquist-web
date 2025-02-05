@@ -1,9 +1,9 @@
 import * as fs from "node:fs";
 import {join} from 'path'
 import {app, BrowserWindow, crashReporter, ipcMain, shell} from 'electron'
-import electron from "electron";
 import * as path from "node:path";
-
+import {register} from "../src/protocol";
+import {Depot} from "../src/depot";
 const { loadMusicMetadata } = require('music-metadata');
 process.env.DIST = join(__dirname, '../dist')
 
@@ -44,19 +44,36 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
 
+const depot = new Depot();
+
+register(depot);
 
 app.whenReady().then(() => {
   createWindow()
-
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
 })
+
+ipcMain.handle('depot-get', () => {
+    return depot;
+});
+
+ipcMain.handle('depot-add', (_, { data, type }) => {
+    return depot.depotAdd(data, type);
+});
+
+ipcMain.handle('depot-get-uuid', (_, path) => {
+    return depot.getDepotUUID(path);
+});
+
+ipcMain.handle('depot-get-path', (_, uuid) => {
+    return depot.getDepotPath(uuid);
+});
+
 ipcMain.handle('test-invoke', (event, args) => {
-
-
   return fs.readdirSync('D:\\nicotine\\downloads')
       .filter((file: any) => {
         const ext = path.extname(file).toLowerCase();

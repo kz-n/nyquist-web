@@ -6,6 +6,7 @@
  * https://www.electronjs.org/docs/latest/tutorial/tutorial-preload
  */
 import { contextBridge, ipcRenderer } from 'electron'
+import {Depot} from "../src/depot";
 function domReady(condition: DocumentReadyState[] = ['complete', 'interactive']) {
   return new Promise(resolve => {
     if (condition.includes(document.readyState)) {
@@ -101,7 +102,12 @@ setTimeout(removeLoading, 4999)
 contextBridge.exposeInMainWorld('api', {
   getMusic: (args: string) => ipcRenderer.invoke('test-invoke', args),
   getAudioStream: (filePath: string) => ipcRenderer.invoke('get-audio-stream', filePath) as Promise<ArrayBuffer>,
-  getMusicMetadata: (filePath: string) => ipcRenderer.invoke('get-music-metadata', filePath)
+  getMusicMetadata: (filePath: string) => ipcRenderer.invoke('get-music-metadata', filePath),
+  getDepot: () => ipcRenderer.invoke('depot-get'),
+  depotAdd: (data: string | { data: number[], format: string }, type: 'path' | 'blob' = 'path') => 
+    ipcRenderer.invoke('depot-add', { data, type }),
+  getDepotUUID: (args: string) => ipcRenderer.invoke('depot-get-uuid', args),
+  getDepotPath: (args: string) => ipcRenderer.invoke('depot-get-path', args),
 });
 
 // Add type declarations
@@ -111,14 +117,17 @@ declare global {
       getMusic: (args: string) => Promise<string[]>;
       getAudioStream: (filePath: string) => Promise<ArrayBuffer>;
       getMusicMetadata: (filePath: string) => Promise<{
-        title?: string;
-        artist?: string;
-        album?: string;
-        duration?: number;
-        bitrate?: number;
-        sampleRate?: number;
-        format?: string;
+        common?: {
+          picture?: Array<{
+            data: Uint8Array;
+            format: string;
+          }>;
+        };
       } | null>;
+      getDepot: () => Promise<Depot>;
+      depotAdd: (data: string | { data: number[], format: string }, type?: 'path' | 'blob') => Promise<string>;
+      getDepotUUID: (args: string) => Promise<string>;
+      getDepotPath: (args: string) => Promise<string>;
     }
   }
 }

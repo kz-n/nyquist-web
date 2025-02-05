@@ -1,4 +1,4 @@
-import {createResource, createSignal, onCleanup, Show} from 'solid-js';
+import {createResource, createSignal, onCleanup, Show, createEffect} from 'solid-js';
 import {Playlist} from "../object/Playlist";
 import {MusicList} from "./MusicList";
 import {WebAudioAPI} from "../object/WebAudioAPI";
@@ -62,9 +62,23 @@ export const AudioRoot = () => {
     onCleanup(() => {
         webAudioAPI().cleanup();
     });
+    const [depot] = createResource(() => window.api.getDepot());
+    const [depotUUID, setDepotUUID] = createSignal<string>("");
+    
+    createEffect(() => {
+        if (!depot.loading && depot()) {
+            window.api.depotAdd("D:\\nicotine\\downloads\\01 - 4Me.flac")
+                .then((uuid) => setDepotUUID(uuid));
+        }
+    });
 
     return (
         <Show when={!musicData.loading} fallback={<div>Loading...</div>}>
+            <audio 
+                style={{ display: "block", width: "300px" }}
+                controls
+                src={depotUUID() ? "nyquist://depot/" + depotUUID() : ""}
+            />
             <div>
                 <StatusBar 
                     currentTrack={jukeboxState().currentTrack} 
