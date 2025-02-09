@@ -1,9 +1,11 @@
 import {createSignal, onMount, onCleanup} from "solid-js";
+import { Jukebox } from "../object/Jukebox";
 
 type MusicCardProps = {
     artist: string;
     title: string;
     picture: string;
+    jukebox: Jukebox;
 }
 
 export const MusicCard = (props: MusicCardProps) => {
@@ -50,7 +52,11 @@ export const MusicCard = (props: MusicCardProps) => {
         });
     });
 
-    return <div class="music-card" ref={cardRef}>
+    const handleClick = () => {
+        props.jukebox.play({ path: props.picture });
+    };
+
+    return <div class="music-card" ref={cardRef} onClick={handleClick}>
         <div 
             class="music-card__background"
             style={{

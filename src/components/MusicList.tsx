@@ -13,7 +13,12 @@ export const MusicList = (props: MusicListProps) => {
             <div class="music-list__card-container">
                 <For each={props.jukebox.playlist.tracks}>
                     {(item) => (
-                        <MusicCard artist={item.path} title={item.path.split('\\').pop()} picture={item.path} />
+                        <MusicCard 
+                            artist={item.path} 
+                            title={item.path.split('\\').pop() || ''} 
+                            picture={item.path}
+                            jukebox={props.jukebox}
+                        />
                     )}
                 </For>
             </div>

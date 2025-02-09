@@ -8,6 +8,7 @@ import {StatusBar} from "./StatusBar";
 import {QueueComponent} from "./QueueComponent";
 import {SpectrumAnalyzer} from "./SpectrumAnalyzer";
 import "../styles/main.scss";
+import {FloatingDock} from "./FloatingDock";
 
 export const AudioRoot = () => {
     const [playlist] = createSignal(new Playlist([], [], new Track("")));
@@ -76,8 +77,15 @@ export const AudioRoot = () => {
     return (
         <Show when={!musicData.loading} fallback={<div>Loading...</div>}>
             <div class={"master-container"}>
+                <FloatingDock
+                    currentTrack={jukeboxState().currentTrack}
+                    isPlaying={jukeboxState().isPlaying}
+                    isPaused={jukeboxState().isPaused}
+                    jukebox={jukeboxState().jukebox}
+                />
                 <MusicList jukebox={jukeboxState().jukebox}></MusicList>
             </div>
+
             {/*<audio */}
             {/*    style={{ display: "block", width: "300px" }}*/}
             {/*    controls*/}
