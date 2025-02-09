@@ -7,6 +7,7 @@ import {Jukebox} from "../object/Jukebox";
 import {StatusBar} from "./StatusBar";
 import {QueueComponent} from "./QueueComponent";
 import {SpectrumAnalyzer} from "./SpectrumAnalyzer";
+import "../styles/main.scss";
 
 export const AudioRoot = () => {
     const [playlist] = createSignal(new Playlist([], [], new Track("")));
@@ -74,23 +75,26 @@ export const AudioRoot = () => {
 
     return (
         <Show when={!musicData.loading} fallback={<div>Loading...</div>}>
-            <audio 
-                style={{ display: "block", width: "300px" }}
-                controls
-                src={depotUUID() ? "nyquist://depot/" + depotUUID() : ""}
-            />
-            <div>
-                <StatusBar 
-                    currentTrack={jukeboxState().currentTrack} 
-                    isPlaying={jukeboxState().isPlaying}
-                    isPaused={jukeboxState().isPaused}
-                    jukebox={jukeboxState().jukebox}
-                />
-                <SpectrumAnalyzer webAudioAPI={webAudioAPI()}></SpectrumAnalyzer>
-                <QueueComponent jukebox={jukeboxState().jukebox}></QueueComponent>
-
-                <MusicList jukebox={jukeboxState().jukebox} />
+            <div class={"master-container"}>
+                <MusicList jukebox={jukeboxState().jukebox}></MusicList>
             </div>
+            {/*<audio */}
+            {/*    style={{ display: "block", width: "300px" }}*/}
+            {/*    controls*/}
+            {/*    src={depotUUID() ? "nyquist://depot/" + depotUUID() : ""}*/}
+            {/*/>*/}
+            {/*<div>*/}
+            {/*    <StatusBar */}
+            {/*        currentTrack={jukeboxState().currentTrack} */}
+            {/*        isPlaying={jukeboxState().isPlaying}*/}
+            {/*        isPaused={jukeboxState().isPaused}*/}
+            {/*        jukebox={jukeboxState().jukebox}*/}
+            {/*    />*/}
+            {/*    <SpectrumAnalyzer webAudioAPI={webAudioAPI()}></SpectrumAnalyzer>*/}
+            {/*    <QueueComponent jukebox={jukeboxState().jukebox}></QueueComponent>*/}
+
+            {/*    <MusicList jukebox={jukeboxState().jukebox} />*/}
+            {/*</div>*/}
         </Show>
     );
 };

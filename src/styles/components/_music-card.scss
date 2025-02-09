@@ -1,0 +1,26 @@
+.music-card {
+  display: flex;
+  &__background {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    background-color: #656565;
+    border-radius: 9px;
+    transition: transform 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  padding: 1rem;
+  &__title {
+    align-self: flex-end;
+    padding: 0.5rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    width: 100%;
+    border-radius: 0 0 9px 9px;
+  }
+}

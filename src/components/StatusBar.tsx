@@ -1,7 +1,6 @@
 import { Track } from "../object/Track";
 import { Jukebox } from "../object/Jukebox";
-import { createSignal } from "solid-js";
-import AudioMotionAnalyzer from "audiomotion-analyzer";
+import { createSignal, onCleanup } from "solid-js";
 
 type StatusBarProps = {
     currentTrack: Track | null;
@@ -20,43 +19,61 @@ export const StatusBar = (props: StatusBarProps) => {
     const [currentTime, setCurrentTime] = createSignal(0);
     const [duration, setDuration] = createSignal(0);
     const [isDragging, setIsDragging] = createSignal(false);
+    const [dragTime, setDragTime] = createSignal(0);
 
     // Set up time update handler
-    props.jukebox.onTimeUpdate = (time: number, total: number) => {
+    const timeUpdateHandler = (time: number, total: number) => {
         if (!isDragging()) {
             setCurrentTime(time);
-            setDuration(total);
         }
+        setDuration(total);
     };
+
+    props.jukebox.onTimeUpdate = timeUpdateHandler;
+    onCleanup(() => {
+        props.jukebox.onTimeUpdate = () => {};
+    });
 
     const handleSeek = (e: InputEvent) => {
         const input = e.target as HTMLInputElement;
         const time = parseFloat(input.value);
-        setCurrentTime(time);
+        setDragTime(time);
         if (!isDragging()) {
-            props.jukebox.seek(time);
+            setCurrentTime(time);
         }
     };
+
+    const handleMouseDown = () => {
+        setIsDragging(true);
+        setDragTime(currentTime());
+    };
+
+    const handleMouseUp = () => {
+        const seekTime = dragTime();
+        setIsDragging(false);
+        setCurrentTime(seekTime);
+        props.jukebox.seek(seekTime);
+    };
+
     return (
         <div class="status-bar">
             <div class="status-bar__now-playing">
                 Now Playing: {props.currentTrack ? props.currentTrack.path.split('\\').pop() : 'Nothing playing'}
             </div>
             <div class="status-bar__time-control">
-                <span>{formatTime(currentTime())}</span>
+                <span>{formatTime(isDragging() ? dragTime() : currentTime())}</span>
                 <input
                     type="range"
                     min="0"
                     max={duration()}
-                    value={currentTime()}
+                    value={isDragging() ? dragTime() : currentTime()}
                     step="0.1"
                     class="status-bar__time-control-slider"
                     onInput={handleSeek}
-                    onMouseDown={() => setIsDragging(true)}
-                    onMouseUp={() => {
-                        setIsDragging(false);
-                        props.jukebox.seek(currentTime());
-                    }}
+                    onMouseDown={handleMouseDown}
+                    onMouseUp={handleMouseUp}
+                    onTouchStart={handleMouseDown}
+                    onTouchEnd={handleMouseUp}
                 />
                 <span>{formatTime(duration())}</span>
             </div>

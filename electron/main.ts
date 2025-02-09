@@ -86,14 +86,13 @@ ipcMain.handle('get-audio-stream', async (_event, filePath) => {
     const stats = await fs.promises.stat(filePath);
     const fileSize = stats.size;
     const stream = fs.createReadStream(filePath);
-    const chunks: Buffer[] = [];
     
     for await (const chunk of stream) {
-      chunks.push(chunk);
-      // Send chunk to renderer
+      // Convert Buffer to Uint8Array and then to Array for safe IPC transfer
+      const arrayData = Array.from(new Uint8Array(chunk));
       _event.sender.send('audio-chunk', {
-        chunk: chunk,
-        isLastChunk: chunks.length * chunk.length >= fileSize
+        chunk: arrayData,
+        isLastChunk: stream.bytesRead >= fileSize
       });
     }
     

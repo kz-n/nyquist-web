@@ -37,7 +37,8 @@ export const QueueComponent = (props: PlaylistProps) => {
     return (
         <div>
             <h1>Queue</h1>
-            <img 
+            <img
+                style={{ display: "block", width: "300px", height: "300px" }}
                 id="album-art" 
                 alt="Album cover" 
                 src={albumArtUUID() ? `nyquist://depot/${albumArtUUID()}` : ''} 
