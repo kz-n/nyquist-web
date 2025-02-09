@@ -1,6 +1,6 @@
 import { Track } from "../object/Track";
 import { Jukebox } from "../object/Jukebox";
-import { createSignal, onCleanup, onMount } from "solid-js";
+import { createSignal, onCleanup, onMount, createEffect } from "solid-js";
 import "../styles/components/_floating-dock.scss";
 
 type FloatingDockProps = {
@@ -24,6 +24,7 @@ export const FloatingDock = (props: FloatingDockProps) => {
 
     const loadAlbumArt = async (track: Track) => {
         try {
+            setAlbumArtUUID(""); // Clear current art first
             const metadata = await window.api.getMusicMetadata(track.path);
             if (metadata?.common?.picture?.[0]) {
                 const imageData = metadata.common.picture[0];
@@ -38,6 +39,15 @@ export const FloatingDock = (props: FloatingDockProps) => {
         }
     };
 
+    // Watch for track changes
+    createEffect(() => {
+        if (props.currentTrack) {
+            loadAlbumArt(props.currentTrack);
+        } else {
+            setAlbumArtUUID("");
+        }
+    });
+
     onMount(() => {
         if (props.currentTrack) {
             loadAlbumArt(props.currentTrack);
@@ -51,13 +61,9 @@ export const FloatingDock = (props: FloatingDockProps) => {
         setDuration(total);
     };
 
-    props.jukebox.onPlay = (track: Track) => {
-        loadAlbumArt(track);
-    };
-
+    // Remove onPlay handler since we're using createEffect
     onCleanup(() => {
         props.jukebox.onTimeUpdate = () => {};
-        props.jukebox.onPlay = () => {};
     });
 
     const handleSeek = (e: InputEvent) => {

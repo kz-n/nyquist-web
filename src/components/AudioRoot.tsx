@@ -9,6 +9,7 @@ import {QueueComponent} from "./QueueComponent";
 import {SpectrumAnalyzer} from "./SpectrumAnalyzer";
 import "../styles/main.scss";
 import {FloatingDock} from "./FloatingDock";
+import {SpectrumDock} from "./SpectrumDock";
 
 export const AudioRoot = () => {
     const [playlist] = createSignal(new Playlist([], [], new Track("")));
@@ -83,6 +84,7 @@ export const AudioRoot = () => {
                     isPaused={jukeboxState().isPaused}
                     jukebox={jukeboxState().jukebox}
                 />
+                <SpectrumDock webAudioAPI={webAudioAPI()} />
                 <MusicList jukebox={jukeboxState().jukebox}></MusicList>
             </div>
 
