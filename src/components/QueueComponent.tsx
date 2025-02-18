@@ -47,7 +47,7 @@ export const QueueComponent = (props: PlaylistProps) => {
                 {(item: Track) => (
                     <button
                         onClick={() => handleClick(item)}
-                        class="music-list__button"
+                        class="card-list__button"
                     >
                         {item.path.split('\\').pop()}
                     </button>

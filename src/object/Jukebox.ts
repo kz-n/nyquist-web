@@ -20,14 +20,25 @@ export class Jukebox {
     }
 
     async play(track: Track) {
+        const startTime = new Date().toLocaleTimeString();
+        console.log(`[${startTime}] Jukebox: Starting playback for track: ${track.fileName}`);
+        
         this.playlist.nowPlaying = track;
+        const playStartTime = new Date().toLocaleTimeString();
+        console.log(`[${playStartTime}] Jukebox: Initiating WebAudioAPI playback`);
+        
         await this.webAudioAPI.play(track.path);
+        const endTime = new Date().toLocaleTimeString();
+        console.log(`[${endTime}] Jukebox: Playback started, calling onPlay callback`);
+        
         this.isPaused = false;
         this.onPlay(track);
     }
 
     pause() {
+        const time = new Date().toLocaleTimeString();
         if (!this.isPaused) {
+            console.log(`[${time}] Jukebox: Pausing playback`);
             this.webAudioAPI.pause();
             this.isPaused = true;
             this.onPause();
@@ -35,7 +46,9 @@ export class Jukebox {
     }
 
     resume() {
+        const time = new Date().toLocaleTimeString();
         if (this.isPaused) {
+            console.log(`[${time}] Jukebox: Resuming playback`);
             this.webAudioAPI.resume();
             this.isPaused = false;
             this.onResume();
@@ -43,10 +56,14 @@ export class Jukebox {
     }
 
     seek(time: number) {
+        const timestamp = new Date().toLocaleTimeString();
+        console.log(`[${timestamp}] Jukebox: Seeking to ${time} seconds`);
         this.webAudioAPI.seek(time);
     }
 
     stop() {
+        const time = new Date().toLocaleTimeString();
+        console.log(`[${time}] Jukebox: Stopping playback`);
         this.webAudioAPI.stop();
         this.isPaused = false;
         this.onStop();

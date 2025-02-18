@@ -10,9 +10,11 @@ import {SpectrumAnalyzer} from "./SpectrumAnalyzer";
 import "../styles/main.scss";
 import {FloatingDock} from "./FloatingDock";
 import {SpectrumDock} from "./SpectrumDock";
+import {DebugDock} from "./DebugDock";
+import {AppLayout} from "./AppLayout";
 
 export const AudioRoot = () => {
-    const [playlist] = createSignal(new Playlist([], [], new Track("")));
+    const [playlist] = createSignal(new Playlist([], [], null));
     const [webAudioAPI] = createSignal(new WebAudioAPI());
     const [jukeboxState, setJukeboxState] = createSignal({
         jukebox: new Jukebox(playlist(), webAudioAPI()),
@@ -22,42 +24,62 @@ export const AudioRoot = () => {
     });
 
     const fetchMusic = async () => {
-        const response = await window.api.getMusic("asd");
-        response.forEach((item: string) => playlist().tracks.push(new Track(item)));
-        const jukebox = jukeboxState().jukebox;
-        
-        jukebox.onPlay = (track: Track) => {
-            setJukeboxState(prev => ({
-                ...prev,
-                currentTrack: track,
-                isPlaying: true,
-                isPaused: false
-            }));
-        };
+        try {
+            const response = await window.api.getMusic("asd");
+            console.log('Fetched music files:', response);
+            
+            // Clear existing tracks
+            playlist().tracks = [];
+            
+            // Add new tracks
+            response.forEach((path: string) => {
+                if (path && path.trim() !== '') {
+                    try {
+                        playlist().tracks.push(new Track(path));
+                    } catch (error) {
+                        console.error('Failed to create track for path:', path, error);
+                    }
+                }
+            });
 
-        jukebox.onPause = () => {
-            setJukeboxState(prev => ({
-                ...prev,
-                isPaused: true
-            }));
-        };
+            const jukebox = jukeboxState().jukebox;
+            
+            jukebox.onPlay = (track: Track) => {
+                setJukeboxState(prev => ({
+                    ...prev,
+                    currentTrack: track,
+                    isPlaying: true,
+                    isPaused: false
+                }));
+            };
 
-        jukebox.onResume = () => {
-            setJukeboxState(prev => ({
-                ...prev,
-                isPaused: false
-            }));
-        };
+            jukebox.onPause = () => {
+                setJukeboxState(prev => ({
+                    ...prev,
+                    isPaused: true
+                }));
+            };
 
-        jukebox.onStop = () => {
-            setJukeboxState(prev => ({
-                ...prev,
-                isPlaying: false,
-                isPaused: false
-            }));
-        };
+            jukebox.onResume = () => {
+                setJukeboxState(prev => ({
+                    ...prev,
+                    isPaused: false
+                }));
+            };
 
-        return response;
+            jukebox.onStop = () => {
+                setJukeboxState(prev => ({
+                    ...prev,
+                    isPlaying: false,
+                    isPaused: false
+                }));
+            };
+
+            return response;
+        } catch (error) {
+            console.error('Failed to fetch music:', error);
+            return [];
+        }
     };
 
     const [musicData] = createResource(fetchMusic);
@@ -85,7 +107,8 @@ export const AudioRoot = () => {
                     jukebox={jukeboxState().jukebox}
                 />
                 <SpectrumDock webAudioAPI={webAudioAPI()} />
-                <MusicList jukebox={jukeboxState().jukebox}></MusicList>
+                <DebugDock tracks={playlist().tracks} />
+                <AppLayout jukebox={jukeboxState().jukebox} />
             </div>
 
             {/*<audio */}

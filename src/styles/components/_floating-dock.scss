@@ -3,7 +3,7 @@
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 30rem;
+    width: min(30rem, calc(100% - 4rem));
     z-index: 1000;
 
     &__content {

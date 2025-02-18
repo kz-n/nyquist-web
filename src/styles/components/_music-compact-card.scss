@@ -1,0 +1,137 @@
+.music-compact-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    background-color: #2a2a2a;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+
+    &:hover {
+        background-color: #333;
+
+        .music-compact-card__play-button {
+            opacity: 1;
+        }
+    }
+
+    &__art {
+        width: 2.5rem;
+        height: 2.5rem;
+        flex-shrink: 0;
+        border-radius: 3px;
+        overflow: hidden;
+        background-color: #222;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__art-placeholder {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        background-color: #333;
+        color: #555;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    &__title {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #d5d5d5;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        font-size: 0.75rem;
+        color: #888;
+        min-width: 0;
+        overflow: hidden;
+    }
+
+    &__artist, &__album {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__artist {
+        color: #aaa;
+        min-width: 0;
+    }
+
+    &__album {
+        color: #888;
+        min-width: 0;
+    }
+
+    &__secondary {
+        display: flex;
+        gap: 0.75rem;
+        color: #666;
+        font-size: 0.7rem;
+    }
+
+    &__genre, &__year, &__duration {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__genre {
+        flex: 1;
+        min-width: 0;
+    }
+
+    &__year {
+        flex: 0 0 auto;
+    }
+
+    &__duration {
+        flex: 0 0 auto;
+        font-family: monospace;
+        font-size: 0.75rem;
+    }
+
+    &__play-button {
+        background: none;
+        border: none;
+        color: #4CAF50;
+        font-size: 1.1rem;
+        cursor: pointer;
+        padding: 0.4rem;
+        margin: -0.4rem;
+        opacity: 0;
+        transition: all 0.2s ease;
+        border-radius: 50%;
+        flex-shrink: 0;
+
+        &:hover {
+            background-color: rgba(76, 175, 80, 0.1);
+        }
+    }
+} 

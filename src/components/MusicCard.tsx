@@ -1,72 +1,57 @@
-import {createSignal, onMount, onCleanup} from "solid-js";
+import {createSignal, createEffect} from "solid-js";
 import { Jukebox } from "../object/Jukebox";
+import { Track, TrackMetadata } from "../object/Track";
 
 type MusicCardProps = {
-    artist: string;
-    title: string;
-    picture: string;
+    track: Track;
     jukebox: Jukebox;
+    onPlay?: () => void;
 }
 
 export const MusicCard = (props: MusicCardProps) => {
-    const [albumArtUUID, setAlbumArtUUID] = createSignal<string>("");
-    let cardRef: HTMLDivElement | undefined;
+    const [metadata, setMetadata] = createSignal<TrackMetadata>({
+        title: props.track.fileName,
+        artist: 'Loading...',
+        album: 'Loading...'
+    });
 
-    const loadAlbumArt = async () => {
-        try {
-            const metadata = await window.api.getMusicMetadata(props.picture);
-            if (metadata?.common?.picture?.[0]) {
-                const imageData = metadata.common.picture[0];
-                const uuid = await window.api.depotAdd({
-                    data: Array.from(imageData.data),
-                    format: imageData.format
-                }, 'blob');
-                setAlbumArtUUID(uuid);
-            }
-        } catch (error) {
-            console.error('Failed to load album art:', error);
+    // Create an effect that updates metadata when it's loaded
+    createEffect(async () => {
+        const time = new Date().toLocaleTimeString();
+        
+        // Check if metadata is loaded
+        if (props.track.isMetadataLoaded) {
+            console.log(`[${time}] MusicCard: Metadata loaded for track: ${props.track.fileName}, updating display`);
+            const currentMetadata = await props.track.getMetadata();
+            setMetadata(currentMetadata);
+        } else {
+            console.log(`[${time}] MusicCard: Waiting for metadata to load for track: ${props.track.fileName}`);
         }
-    };
-
-    onMount(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting && !albumArtUUID()) {
-                        loadAlbumArt();
-                    }
-                });
-            },
-            { rootMargin: '50px' }
-        );
-
-        if (cardRef) {
-            observer.observe(cardRef);
-        }
-
-        onCleanup(() => {
-            if (cardRef) {
-                observer.unobserve(cardRef);
-            }
-            observer.disconnect();
-        });
     });
 
     const handleClick = () => {
-        props.jukebox.play({ path: props.picture });
+        const time = new Date().toLocaleTimeString();
+        console.log(`[${time}] MusicCard: Click detected, initiating playback for track: ${props.track.fileName}`);
+        props.onPlay?.();
+        props.jukebox.play(props.track);
     };
 
-    return <div class="music-card" ref={cardRef} onClick={handleClick}>
+    return <div class="music-card" onClick={handleClick}>
         <div 
             class="music-card__background"
             style={{
-                "background-image": albumArtUUID() ? `url(nyquist://depot/${albumArtUUID()})` : 'none',
+                "background-image": metadata().albumArtUUID ? `url(nyquist://depot/${metadata().albumArtUUID})` : 'none',
                 "background-size": "cover",
                 "background-position": "center"
             }}
         >
-            <div class="music-card__title">
-                {props.title}
+            <div class="music-card__info">
+                <div class="music-card__title">
+                    {metadata().title}
+                </div>
+                <div class="music-card__artist">
+                    {metadata().artist}
+                </div>
             </div>
         </div>
     </div>

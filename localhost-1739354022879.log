@@ -1,0 +1,989 @@
+AudioRoot.tsx:27 Fetched music files: (494) ['D:\\nicotine\\downloads\\01 - 4Me.flac', 'D:\\nicotine\\downloads\\01 - Can t Move.flac', "D:\\nicotine\\downloads\\01 - I'm Here.flac", 'D:\\nicotine\\downloads\\01 - Knock Yourself Out XD.flac', 'D:\\nicotine\\downloads\\01 - LeanTro.flac', 'D:\\nicotine\\downloads\\01 - Mr. Bill & eliderp - Big Chordi Boi.flac', 'D:\\nicotine\\downloads\\01 - Pika Girl.flac', 'D:\\nicotine\\downloads\\01 - thinkaboutit.flac', 'D:\\nicotine\\downloads\\01 Bad Computer - Static Abyss.flac', 'D:\\nicotine\\downloads\\01 Bad Computer - Stereo Nicotine.mp3', 'D:\\nicotine\\downloads\\01 cosMo＠暴走P feat. 初音ミク - 初音ミクの消失.flac', 'D:\\nicotine\\downloads\\01 Divinity.flac', 'D:\\nicotine\\downloads\\01 Made in Abyss.flac', 'D:\\nicotine\\downloads\\01 Once Upon a Time.mp3', 'D:\\nicotine\\downloads\\01 Takumi Sekiguchi Sloan - Intro.flac', 'D:\\nicotine\\downloads\\01. Chime - Lost Limerence.flac', 'D:\\nicotine\\downloads\\01. Maduk, Veela - Ghost Assassin.flac', 'D:\\nicotine\\downloads\\01. Vitality.flac', 'D:\\nicotine\\downloads\\01. XIII.flac', 'D:\\nicotine\\downloads\\02 - Cheerleader.flac', 'D:\\nicotine\\downloads\\02 - Dawn.flac', 'D:\\nicotine\\downloads\\02 - Home Alone.flac', 'D:\\nicotine\\downloads\\02 - Mr. Bill, eliderp & The Widdler - Barely See.flac', 'D:\\nicotine\\downloads\\02 - Ponyboy.flac', 'D:\\nicotine\\downloads\\02 - Se SipPo La LeaN.flac', 'D:\\nicotine\\downloads\\02 Roar of the Abyss.flac', 'D:\\nicotine\\downloads\\02 Sad Machine.flac', 'D:\\nicotine\\downloads\\02 Start Menu.mp3', 'D:\\nicotine\\downloads\\02 Takumi Sekiguchi Sloan - Home (g4).flac', 'D:\\nicotine\\downloads\\02. Rats.flac', 'D:\\nicotine\\downloads\\03 - Better Than Ever.flac', 'D:\\nicotine\\downloads\\03 - EGOTRIP.flac', 'D:\\nicotine\\downloads\\03 - Image -Material- (Version 0).flac', 'D:\\nicotine\\downloads\\03 - IMAGE -MATERIAL- ＜Version 0＞.flac', 'D:\\nicotine\\downloads\\03 - iN uNa buBbLe.flac', 'D:\\nicotine\\downloads\\03 - Kill EVERYBODY.flac', 'D:\\nicotine\\downloads\\03 - Mr. Bill & Infected Mushroom - Rawthentic.flac', 'D:\\nicotine\\downloads\\03 - Russian Roulette.flac', 'D:\\nicotine\\downloads\\03 Beni-Kuchi-Nawa.flac', 'D:\\nicotine\\downloads\\03 Takumi Sekiguchi Sloan - The Truckstop (g16).flac', 'D:\\nicotine\\downloads\\03 Years of War.flac', 'D:\\nicotine\\downloads\\03 Your Best Friend.mp3', 'D:\\nicotine\\downloads\\03. Glow.flac', 'D:\\nicotine\\downloads\\04 - Anybody Else.flac', 'D:\\nicotine\\downloads\\04 - gRiZzly.flac', 'D:\\nicotine\\downloads\\04 - Mr. Bill & JoeB - Chords 15.flac', 'D:\\nicotine\\downloads\\04 - Perfect Pinterest Garden.flac', 'D:\\nicotine\\downloads\\04 - SMSOU.flac', 'D:\\nicotine\\downloads\\04 Days in the Sun.flac', 'D:\\nicotine\\downloads\\04 Fallen Down.mp3', 'D:\\nicotine\\downloads\\04 Flicker.flac', 'D:\\nicotine\\downloads\\04 Takumi Sekiguchi Sloan - The Outskirts (g15).flac', 'D:\\nicotine\\downloads\\04. Hollow.flac', 'D:\\nicotine\\downloads\\04. Skybreak - Waterfall.flac', 'D:\\nicotine\\downloads\\05 - Get Off The Internet.flac', 'D:\\nicotine\\downloads\\05 - Looking Back.flac', 'D:\\nicotine\\downloads\\05 - Mr. Bill, Underbelly & Ill-Esha - Haze.flac', 'D:\\nicotine\\downloads\\05 - Musician.flac', 'D:\\nicotine\\downloads\\05 - SqUad.flac', 'D:\\nicotine\\downloads\\05 - Year of the Cup.flac', 'D:\\nicotine\\downloads\\05 Fresh Static Snow.flac', 'D:\\nicotine\\downloads\\05 Rafters.flac', 'D:\\nicotine\\downloads\\05 Ruins.mp3', 'D:\\nicotine\\downloads\\05 The Gimp - Parade of Disasters (612).flac', 'D:\\nicotine\\downloads\\05. Blue Zenith.flac', 'D:\\nicotine\\downloads\\05. Devour.flac', 'D:\\nicotine\\downloads\\06 - heart.EXE.flac', 'D:\\nicotine\\downloads\\06 - Kitsune Maison Freestyle.flac', 'D:\\nicotine\\downloads\\06 - Mr. Bill & knoir - ICASM.flac', 'D:\\nicotine\\downloads\\06 - netflixXx.flac', 'D:\\nicotine\\downloads\\06 - Wait Anymore.flac', 'D:\\nicotine\\downloads\\06 Grievous Lady.flac', 'D:\\nicotine\\downloads\\06 Polygon Dust.flac', 'D:\\nicotine\\downloads\\06 Takumi Sekiguchi Sloan - The Bridge (642).flac', 'D:\\nicotine\\downloads\\06 Treehouse.flac', 'D:\\nicotine\\downloads\\06 Uwa!! So Temperate♫.mp3', 'D:\\nicotine\\downloads\\06. Laur — Sound Chimera.flac', 'D:\\nicotine\\downloads\\06. Neglect.flac', 'D:\\nicotine\\downloads\\07 - bLa bLa.flac', 'D:\\nicotine\\downloads\\07 - comecloser.flac', 'D:\\nicotine\\downloads\\07 - Easier to Love You.flac', 'D:\\nicotine\\downloads\\07 - Mr. Bill & Gardnsound - Real2Real.flac', 'D:\\nicotine\\downloads\\07 Anticipation.mp3', 'D:\\nicotine\\downloads\\07 Hear the Bells.flac', 'D:\\nicotine\\downloads\\07 Hey Nigger.mp3', 'D:\\nicotine\\downloads\\07 New World.flac', 'D:\\nicotine\\downloads\\07 Takumi Sekiguchi Sloan - The Mine (37).flac', 'D:\\nicotine\\downloads\\07. Serenity.flac', 'D:\\nicotine\\downloads\\08 - kiSs.flac', 'D:\\nicotine\\downloads\\08 - Mona Lisa.flac', 'D:\\nicotine\\downloads\\08 - MOREPWR.flac', 'D:\\nicotine\\downloads\\08 - Mr. Bill, COPYCATT & Def3 - Bring It On.flac', 'D:\\nicotine\\downloads\\08 - Porter Robinson, Frost Children - Mona Lisa.flac', 'D:\\nicotine\\downloads\\08 Natural Light.flac', 'D:\\nicotine\\downloads\\08 Takumi Sekiguchi Sloan - The Junk Yard (g7).flac', 'D:\\nicotine\\downloads\\08 To the Abyss!.flac', 'D:\\nicotine\\downloads\\08 Unnecessary Tension.mp3', 'D:\\nicotine\\downloads\\08. Pathogen.flac', 'D:\\nicotine\\downloads\\08. Vitality (VIP Edit).flac', 'D:\\nicotine\\downloads\\09 - coMpResse.flac', …]
+Track.ts:43 [10:52:56 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - 4Me.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - 4Me.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - Can t Move.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - Can t Move.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - I'm Here.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - I'm Here.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - Knock Yourself Out XD.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - Knock Yourself Out XD.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - LeanTro.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - LeanTro.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - Mr. Bill & eliderp - Big Chordi Boi.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - Mr. Bill & eliderp - Big Chordi Boi.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - Pika Girl.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - Pika Girl.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 - thinkaboutit.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 - thinkaboutit.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 Bad Computer - Static Abyss.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 Bad Computer - Static Abyss.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 Bad Computer - Stereo Nicotine.mp3
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 Bad Computer - Stereo Nicotine.mp3
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 cosMo＠暴走P feat. 初音ミク - 初音ミクの消失.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 cosMo＠暴走P feat. 初音ミク - 初音ミクの消失.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 Divinity.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 Divinity.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 Made in Abyss.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 Made in Abyss.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 Once Upon a Time.mp3
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 Once Upon a Time.mp3
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01 Takumi Sekiguchi Sloan - Intro.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01 Takumi Sekiguchi Sloan - Intro.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01. Chime - Lost Limerence.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01. Chime - Lost Limerence.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01. Maduk, Veela - Ghost Assassin.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01. Maduk, Veela - Ghost Assassin.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01. Vitality.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01. Vitality.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\01. XIII.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\01. XIII.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 - Cheerleader.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 - Cheerleader.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 - Dawn.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 - Dawn.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 - Home Alone.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 - Home Alone.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 - Mr. Bill, eliderp & The Widdler - Barely See.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 - Mr. Bill, eliderp & The Widdler - Barely See.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 - Ponyboy.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 - Ponyboy.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 - Se SipPo La LeaN.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 - Se SipPo La LeaN.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 Roar of the Abyss.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 Roar of the Abyss.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 Sad Machine.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 Sad Machine.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 Start Menu.mp3
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 Start Menu.mp3
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02 Takumi Sekiguchi Sloan - Home (g4).flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02 Takumi Sekiguchi Sloan - Home (g4).flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\02. Rats.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\02. Rats.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - Better Than Ever.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - Better Than Ever.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - EGOTRIP.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - EGOTRIP.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - Image -Material- (Version 0).flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - Image -Material- (Version 0).flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - IMAGE -MATERIAL- ＜Version 0＞.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - IMAGE -MATERIAL- ＜Version 0＞.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - iN uNa buBbLe.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - iN uNa buBbLe.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - Kill EVERYBODY.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - Kill EVERYBODY.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - Mr. Bill & Infected Mushroom - Rawthentic.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - Mr. Bill & Infected Mushroom - Rawthentic.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 - Russian Roulette.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 - Russian Roulette.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 Beni-Kuchi-Nawa.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 Beni-Kuchi-Nawa.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 Takumi Sekiguchi Sloan - The Truckstop (g16).flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 Takumi Sekiguchi Sloan - The Truckstop (g16).flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 Years of War.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 Years of War.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03 Your Best Friend.mp3
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03 Your Best Friend.mp3
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\03. Glow.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\03. Glow.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 - Anybody Else.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 - Anybody Else.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 - gRiZzly.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 - gRiZzly.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 - Mr. Bill & JoeB - Chords 15.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 - Mr. Bill & JoeB - Chords 15.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 - Perfect Pinterest Garden.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 - Perfect Pinterest Garden.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 - SMSOU.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 - SMSOU.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 Days in the Sun.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 Days in the Sun.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 Fallen Down.mp3
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 Fallen Down.mp3
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 Flicker.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 Flicker.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04 Takumi Sekiguchi Sloan - The Outskirts (g15).flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04 Takumi Sekiguchi Sloan - The Outskirts (g15).flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04. Hollow.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04. Hollow.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\04. Skybreak - Waterfall.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\04. Skybreak - Waterfall.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 - Get Off The Internet.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 - Get Off The Internet.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 - Looking Back.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 - Looking Back.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 - Mr. Bill, Underbelly & Ill-Esha - Haze.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 - Mr. Bill, Underbelly & Ill-Esha - Haze.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 - Musician.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 - Musician.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 - SqUad.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 - SqUad.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 - Year of the Cup.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 - Year of the Cup.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 Fresh Static Snow.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 Fresh Static Snow.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 Rafters.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 Rafters.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 Ruins.mp3
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 Ruins.mp3
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05 The Gimp - Parade of Disasters (612).flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05 The Gimp - Parade of Disasters (612).flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05. Blue Zenith.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05. Blue Zenith.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\05. Devour.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\05. Devour.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 - heart.EXE.flac
+Track.ts:49 [10:52:57 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 - heart.EXE.flac
+Track.ts:43 [10:52:57 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 - Kitsune Maison Freestyle.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 - Kitsune Maison Freestyle.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 - Mr. Bill & knoir - ICASM.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 - Mr. Bill & knoir - ICASM.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 - netflixXx.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 - netflixXx.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 - Wait Anymore.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 - Wait Anymore.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 Grievous Lady.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 Grievous Lady.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 Polygon Dust.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 Polygon Dust.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 Takumi Sekiguchi Sloan - The Bridge (642).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 Takumi Sekiguchi Sloan - The Bridge (642).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 Treehouse.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 Treehouse.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06 Uwa!! So Temperate♫.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06 Uwa!! So Temperate♫.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06. Laur — Sound Chimera.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06. Laur — Sound Chimera.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\06. Neglect.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\06. Neglect.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 - bLa bLa.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 - bLa bLa.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 - comecloser.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 - comecloser.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 - Easier to Love You.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 - Easier to Love You.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 - Mr. Bill & Gardnsound - Real2Real.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 - Mr. Bill & Gardnsound - Real2Real.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 Anticipation.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 Anticipation.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 Hear the Bells.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 Hear the Bells.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 Hey Nigger.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 Hey Nigger.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 New World.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 New World.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07 Takumi Sekiguchi Sloan - The Mine (37).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07 Takumi Sekiguchi Sloan - The Mine (37).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\07. Serenity.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\07. Serenity.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 - kiSs.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 - kiSs.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 - Mona Lisa.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 - Mona Lisa.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 - MOREPWR.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 - MOREPWR.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 - Mr. Bill, COPYCATT & Def3 - Bring It On.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 - Mr. Bill, COPYCATT & Def3 - Bring It On.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 - Porter Robinson, Frost Children - Mona Lisa.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 - Porter Robinson, Frost Children - Mona Lisa.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 Natural Light.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 Natural Light.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 Takumi Sekiguchi Sloan - The Junk Yard (g7).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 Takumi Sekiguchi Sloan - The Junk Yard (g7).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 To the Abyss!.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 To the Abyss!.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08 Unnecessary Tension.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08 Unnecessary Tension.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08. Pathogen.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08. Pathogen.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\08. Vitality (VIP Edit).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\08. Vitality (VIP Edit).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 - coMpResse.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 - coMpResse.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 - f_ck you.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 - f_ck you.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 - Is There Really No Happiness_.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 - Is There Really No Happiness_.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 - Mr. Bill & Skope - Stutter.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 - Mr. Bill & Skope - Stutter.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 - Portal - Still Alive.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 - Portal - Still Alive.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 Enemy Approaching.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 Enemy Approaching.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 Lionhearted.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 Lionhearted.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 Takumi Sekiguchi Sloan - The Trailer Park (621).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 Takumi Sekiguchi Sloan - The Trailer Park (621).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09 Underground River (opening version).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09 Underground River (opening version).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\09. After Dark.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\09. After Dark.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-01 Lifelike.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-01 Lifelike.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-02 Look at the Sky.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-02 Look at the Sky.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-02. Old Stories.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-02. Old Stories.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-03 Get Your Wish.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-03 Get Your Wish.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-04 Wind Tempos.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-04 Wind Tempos.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-05 Musician.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-05 Musician.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-06 do-re-mi-fa-so-la-ti-do.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-06 do-re-mi-fa-so-la-ti-do.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-07 Mother.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-07 Mother.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-08 dullscythe.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-08 dullscythe.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-09 Sweet Time.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-09 Sweet Time.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-10 Mirror.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-10 Mirror.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-11 Something Comforting.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-11 Something Comforting.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-12 Blossom.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-12 Blossom.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-13 Unfold.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-13 Unfold.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1-14 Trying to Feel Alive.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1-14 Trying to Feel Alive.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\1. Ephemeral.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1. Ephemeral.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 - Everything To Me.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 - Everything To Me.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 - gReeN.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 - gReeN.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 - Mr. Bill - Subrioty.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 - Mr. Bill - Subrioty.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 - Playing With Fire.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 - Playing With Fire.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 Ghost Fight.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 Ghost Fight.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 Maul.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 Maul.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 Sea of Voices.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 Sea of Voices.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 Skrillex - Hydrate.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 Skrillex - Hydrate.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10 Takumi Sekiguchi Sloan - The Train (g6).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10 Takumi Sekiguchi Sloan - The Train (g6).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\10. Laceration.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\10. Laceration.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\100 MEGALOVANIA.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\100 MEGALOVANIA.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\101 Good Night.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\101 Good Night.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 - Mr. Bill & VCTRE - Absence.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 - Mr. Bill & VCTRE - Absence.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 - Poison Oak (feat. I Set My Friends On Fire).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 - Poison Oak (feat. I Set My Friends On Fire).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 - sPicCi e TagLi.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 - sPicCi e TagLi.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 Determination.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 Determination.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 Fellow Feeling.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 Fellow Feeling.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 The Gimp - The Ghetto (237).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 The Gimp - The Ghetto (237).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11 Walking the Streets.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11 Walking the Streets.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\11. Black Truth.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\11. Black Truth.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 - Mr. Bill & Zebbler Encanti Experience - Rewind.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 - Mr. Bill & Zebbler Encanti Experience - Rewind.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 - Waste My Time.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 - Waste My Time.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 - xaN.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 - xaN.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 Elation Station.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 Elation Station.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 Goodbye to a World.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 Goodbye to a World.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 Home.mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 Home.mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 Remembering Home.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 Remembering Home.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12 Takumi Sekiguchi Sloan - The City (643).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12 Takumi Sekiguchi Sloan - The City (643).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\12. Into Nothing.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\12. Into Nothing.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 - gRaZie A Dio.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 - gRaZie A Dio.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 - happyending.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 - happyending.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 - Mr. Bill, Zebbler Encanti Experience & Otto Von Schirach - Impeccable.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 - Mr. Bill, Zebbler Encanti Experience & Otto Von Schirach - Impeccable.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 - occh1 purpl3.flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 - occh1 purpl3.flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 - Unfold (feat. Totally Enormous Extinct Dinosaurs).flac
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 - Unfold (feat. Totally Enormous Extinct Dinosaurs).flac
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 Home (Music Box).mp3
+Track.ts:49 [10:52:58 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 Home (Music Box).mp3
+Track.ts:43 [10:52:58 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 Takumi Sekiguchi Sloan - The Carnival.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 Takumi Sekiguchi Sloan - The Carnival.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\13 Those Everyday Feels.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13 Those Everyday Feels.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\13. Hold Me Down.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\13. Hold Me Down.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\1370 - Au5 - Snowblind (feat. Tasha Baxter).flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\1370 - Au5 - Snowblind (feat. Tasha Baxter).flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\14 - Mr. Bill, Clockvice & vangran - Inflammable.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\14 - Mr. Bill, Clockvice & vangran - Inflammable.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\14 - tRaSh caBareT.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\14 - tRaSh caBareT.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\14 2 Months.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\14 2 Months.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\14 Heartache.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\14 Heartache.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\14 Takumi Sekiguchi Sloan - Central Park (52).flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\14 Takumi Sekiguchi Sloan - Central Park (52).flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\14. Shadow Dancer.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\14. Shadow Dancer.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15 - mooNsTaR tReK.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15 - mooNsTaR tReK.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15 - Mr. Bill, Dirt Monkey & Ellika - Bones.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15 - Mr. Bill, Dirt Monkey & Ellika - Bones.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15 Fullmoon Lullaby.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15 Fullmoon Lullaby.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15 Reg Wakes.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15 Reg Wakes.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15 sans_.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15 sans_.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15 Takumi Sekiguchi Sloan - Air Force Base (71).flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15 Takumi Sekiguchi Sloan - Air Force Base (71).flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\15. Child Of The Earth.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\15. Child Of The Earth.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\16 - Mr. Bill & Culprate - Lie.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\16 - Mr. Bill & Culprate - Lie.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\16 - wocK.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\16 - wocK.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\16 Kurt Willoughby - EZ Mart.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\16 Kurt Willoughby - EZ Mart.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\16 Nyeh Heh Heh!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\16 Nyeh Heh Heh!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\16 Theme of Reg.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\16 Theme of Reg.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\16. Starstorm.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\16. Starstorm.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\17 - Mr. Bill - Wybe.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\17 - Mr. Bill - Wybe.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\17 - sMash.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\17 - sMash.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\17 Gallantry and Recapitulation.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\17 Gallantry and Recapitulation.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\17 Kurt Willoughby - Shanty Town.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\17 Kurt Willoughby - Shanty Town.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\17 Snowy.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\17 Snowy.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\18 - Mr. Bill & Exorbiter - sudo.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\18 - Mr. Bill & Exorbiter - sudo.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\18 - xK.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\18 - xK.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\18 Kurt Willoughby - Earthquake.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\18 Kurt Willoughby - Earthquake.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\18 Language x Unfold (Nurture Live version).flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\18 Language x Unfold (Nurture Live version).flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\18 Riko's Theme.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\18 Riko's Theme.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\18 Uwa!! So Holiday♫.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\18 Uwa!! So Holiday♫.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\19 - noN puoi faRe naDa.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\19 - noN puoi faRe naDa.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\19 Dogbass.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\19 Dogbass.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\19 Kurt Willoughby - La Palamino Resort.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\19 Kurt Willoughby - La Palamino Resort.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\19 Swings and Roundabouts.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\19 Swings and Roundabouts.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\2-03. 東京テディベア.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\2-03. 東京テディベア.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\20 - SELEÇAO (prod. MILES) 07.07.23.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\20 - SELEÇAO (prod. MILES) 07.07.23.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\20 Kurt Willoughby - Tokyo.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\20 Kurt Willoughby - Tokyo.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\20 Mysterious Place.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\20 Mysterious Place.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\20 Tasukete.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\20 Tasukete.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\21 - Sostituite (outro).flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\21 - Sostituite (outro).flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\21 Air.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\21 Air.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\21 Dogsong.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\21 Dogsong.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\21 Kurt Willoughby - Osaka.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\21 Kurt Willoughby - Osaka.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\22 OcularNebula - Practice_ Stay Inside Me.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\22 OcularNebula - Practice_ Stay Inside Me.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\22 Snowdin Town.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\22 Snowdin Town.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\22 Takumi Sekiguchi Sloan - Ending.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\22 Takumi Sekiguchi Sloan - Ending.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\22 Welcome to my World.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\22 Welcome to my World.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\23 Hanezeve Caradhina.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\23 Hanezeve Caradhina.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\23 Shop.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\23 Shop.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\23 Takumi Sekiguchi Sloan - Credits.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\23 Takumi Sekiguchi Sloan - Credits.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\24 Bonetrousle.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\24 Bonetrousle.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\24 Depths of the Abyss.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\24 Depths of the Abyss.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\24 Takumi Sekiguchi Sloan - Outro.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\24 Takumi Sekiguchi Sloan - Outro.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\25 Dating Start!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\25 Dating Start!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\25 Forest of the Abyss.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\25 Forest of the Abyss.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\25. Bad Computer - 2U.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\25. Bad Computer - 2U.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\26 Butterfly Atmospheres.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\26 Butterfly Atmospheres.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\26 Dating Tense!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\26 Dating Tense!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\27 Dating Fight!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\27 Dating Fight!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\27 The First Layer.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\27 The First Layer.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\28 Abyss of the Sea.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\28 Abyss of the Sea.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\28 Premonition.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\28 Premonition.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\29 Danger Mystery.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\29 Danger Mystery.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\29 Orth Waltz.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\29 Orth Waltz.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\30 Jungle Run.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\30 Jungle Run.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\30 Undyne.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\30 Undyne.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\31 Crucifixion.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\31 Crucifixion.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\31 Waterfall.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\31 Waterfall.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\32 Run!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\32 Run!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\32 Serphent Call.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\32 Serphent Call.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\33 Outside.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\33 Outside.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\33 Quiet Water.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\33 Quiet Water.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\34 Forces Beyond Control.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\34 Forces Beyond Control.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\34 Memory.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\34 Memory.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\35 Bird That Carries You Over A Disproportionately Small Gap.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\35 Bird That Carries You Over A Disproportionately Small Gap.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\35 Nanachi in the Dark.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\35 Nanachi in the Dark.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\36 Dummy!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\36 Dummy!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\36 Underground River.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\36 Underground River.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\37 Pathetic House.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\37 Pathetic House.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\37 Walking the Tightrope.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\37 Walking the Tightrope.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\38 Relinquish.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\38 Relinquish.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\38 Spooktune.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\38 Spooktune.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\39 Spookwave.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\39 Spookwave.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\39 Tour the Abyss.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\39 Tour the Abyss.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\40 Adventure Through the Light.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\40 Adventure Through the Light.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\40 Ghouliday.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\40 Ghouliday.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\41 Chill.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\41 Chill.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\41 Classroom.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\41 Classroom.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\42 Reg's Power.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\42 Reg's Power.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\42 Thundersnail.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\42 Thundersnail.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\43 In the Blind.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\43 In the Blind.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\43 Temmie Village.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\43 Temmie Village.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\44 Tem Shop.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\44 Tem Shop.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\44 The Pit.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\44 The Pit.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\45 Discover the Abyss.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\45 Discover the Abyss.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\45 NGAHHH!!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\45 NGAHHH!!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\46 Spear of Justice.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\46 Spear of Justice.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\46 Vista.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\46 Vista.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\47 Mirage.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\47 Mirage.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\47 Ooo.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\47 Ooo.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\48 Alphys.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\48 Alphys.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\48 Indoor Voices.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\48 Indoor Voices.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\49 It’s Showtime!.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\49 It’s Showtime!.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\49 Nanachi in the Light.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\49 Nanachi in the Light.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\4me.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\4me.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\50 Metal Crusher.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\50 Metal Crusher.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\50 Saber-tooth.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\50 Saber-tooth.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\51 Another Medium.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\51 Another Medium.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\51 Pathway.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\51 Pathway.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\52 Tomorrow.flac
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\52 Tomorrow.flac
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\52 Uwa!! So HEATS!!♫.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\52 Uwa!! So HEATS!!♫.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\53 Stronger Monsters.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\53 Stronger Monsters.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\54 Hotel.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\54 Hotel.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\55 Can You Really Call This A Hotel, I Didn’t Receive A Mint On My Pillow Or Anything.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\55 Can You Really Call This A Hotel, I Didn’t Receive A Mint On My Pillow Or Anything.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\56 Confession.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\56 Confession.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\57 Live Report.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\57 Live Report.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\58 Death Report.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\58 Death Report.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\59 Spider Dance.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\59 Spider Dance.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\60 Wrong Enemy !_.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\60 Wrong Enemy !_.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\61 Oh! One True Love.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\61 Oh! One True Love.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\62 Oh! Dungeon.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\62 Oh! Dungeon.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\63 It’s Raining Somewhere Else.mp3
+Track.ts:49 [10:52:59 AM] Track: Loaded full metadata for: D:\nicotine\downloads\63 It’s Raining Somewhere Else.mp3
+Track.ts:43 [10:52:59 AM] Track: Loading full metadata for: D:\nicotine\downloads\64 CORE Approach.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\64 CORE Approach.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\65 CORE.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\65 CORE.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\66 Last Episode!.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\66 Last Episode!.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\67 Oh My….mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\67 Oh My….mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\68 Death By Glamour.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\68 Death By Glamour.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\69 For The Fans.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\69 For The Fans.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\70 Long Elevator.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\70 Long Elevator.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\71 Undertale.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\71 Undertale.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\72 Song That Might Play When You Fight Sans.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\72 Song That Might Play When You Fight Sans.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\73 The Choice.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\73 The Choice.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\74 Small Shock.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\74 Small Shock.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\75 Barrier.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\75 Barrier.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\76 Bergentrückung.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\76 Bergentrückung.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\77 ASGORE.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\77 ASGORE.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\78 You Idiot.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\78 You Idiot.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\79 Your Best Nightmare.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\79 Your Best Nightmare.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\80 Finale.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\80 Finale.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\81 An Ending.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\81 An Ending.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\82 She’s Playing Piano.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\82 She’s Playing Piano.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\83 Here We Are.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\83 Here We Are.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\84 Amalgam.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\84 Amalgam.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\85 Fallen Down (Reprise).mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\85 Fallen Down (Reprise).mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\86 Don’t Give Up.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\86 Don’t Give Up.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\87 Hopes And Dreams.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\87 Hopes And Dreams.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\88 Burn In Despair!.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\88 Burn In Despair!.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\89 SAVE The World.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\89 SAVE The World.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\90 His Theme.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\90 His Theme.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\90. His Theme.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\90. His Theme.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\91 Final Power.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\91 Final Power.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\92 Reunited.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\92 Reunited.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\93 Menu (Full).mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\93 Menu (Full).mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\94 Respite.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\94 Respite.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\95 Bring It In, Guys!.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\95 Bring It In, Guys!.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\96 Last Goodbye.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\96 Last Goodbye.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\97 But The Earth Refused To Die.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\97 But The Earth Refused To Die.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\98 Battle Against A True Hero.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\98 Battle Against A True Hero.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\99 Power Of “NEO”.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\99 Power Of “NEO”.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\Boomfunk MC's - 1999 - Freestyler (Radio Edit).flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Boomfunk MC's - 1999 - Freestyler (Radio Edit).flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\CHIME_bass_loop_starstorm_screeches_150_A#.wav
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\CHIME_bass_loop_starstorm_screeches_150_A#.wav
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\Immortal Technique - Dance With The Devil.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Immortal Technique - Dance With The Devil.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\Keigo Hoashi - NieR-Automata Original Soundtrack - 07 - Amusement Park.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Keigo Hoashi - NieR-Automata Original Soundtrack - 07 - Amusement Park.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - La chiave del mio amor - 01 - La chiave del mio amor.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - La chiave del mio amor - 01 - La chiave del mio amor.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - Nel nome del codice - 01 - Nel nome del codice.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - Nel nome del codice - 01 - Nel nome del codice.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - Tenebre Rosso Sangue - 01 - Tenebre Rosso Sangue.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - Tenebre Rosso Sangue - 01 - Tenebre Rosso Sangue.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 01 - Duhicebdo ed varicecag parvabiguf.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 01 - Duhicebdo ed varicecag parvabiguf.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 02 - Igparera fihi gexigug igpariug afc.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 02 - Igparera fihi gexigug igpariug afc.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 03 - E puro fobca dafluic eque pure.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 03 - E puro fobca dafluic eque pure.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 04 - Ohfaquiug egidof, varicef odiug peric.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 04 - Ohfaquiug egidof, varicef odiug peric.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 05 - Eliabe vicie ib odulif hehaguf e cargo bofcre fubc.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 05 - Eliabe vicie ib odulif hehaguf e cargo bofcre fubc.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 06 - Baqua irefdi, baqua edgireri, fad ibcalligara.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 06 - Baqua irefdi, baqua edgireri, fad ibcalligara.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 07 - Becureg axpallef furde. Cegab ufqua radurrac.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 07 - Becureg axpallef furde. Cegab ufqua radurrac.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 08 - Baqua ighallag farodaf progabarebc equilea dolugheg.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 08 - Baqua ighallag farodaf progabarebc equilea dolugheg.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 09 - Lax ubivarfe afc, quea iuhac befdi ac gori.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░ ▒ ▓ █ - 09 - Lax ubivarfe afc, quea iuhac befdi ac gori.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 01 - H A R E K L A V I T.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 01 - H A R E K L A V I T.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 02 - T I L A S K A R O T.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 02 - T I L A S K A R O T.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 03 - G E B U E R J E I T.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 03 - G E B U E R J E I T.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 04 - F A R B A S K E I N.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 04 - F A R B A S K E I N.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 05 - A S G R E T A L O S.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 05 - A S G R E T A L O S.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 06 - D I L E R K E F E T.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 06 - D I L E R K E F E T.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 07 - B A R E G E R E S K.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 07 - B A R E G E R E S K.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 08 - L A D I K E R F O S.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 08 - L A D I K E R F O S.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 09 - S E V E R K E T O R.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 09 - S E V E R K E T O R.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 10 - V A R E C K J E I T.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\KEYGEN CHURCH - ░█░█░░█░█░█░ - 10 - V A R E C K J E I T.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\Kill Frenzy - Big Gong Booty Fries (Skrillex Mash).mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Kill Frenzy - Big Gong Booty Fries (Skrillex Mash).mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\Macarena v.s Skrillex - Bangarang Macarena (VIP Edit).mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Macarena v.s Skrillex - Bangarang Macarena (VIP Edit).mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\Maduk - Ghost Assassin (feat Veela - Vip).flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Maduk - Ghost Assassin (feat Veela - Vip).flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - 486DX - 01 - 33MHz.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - 486DX - 01 - 33MHz.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - 486DX - 02 - 64MB.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - 486DX - 02 - 64MB.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - 80386 - 01 - 80386.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - 80386 - 01 - 80386.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 01 - IO.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 01 - IO.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 02 - MSDOS.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 02 - MSDOS.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 03 - XCOPY.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 03 - XCOPY.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 04 - CONFIG.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 04 - CONFIG.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 05 - AUTOEXEC.BAT.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 05 - AUTOEXEC.BAT.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 06 - COMMAND.COM.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 06 - COMMAND.COM.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 07 - FORMAT.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 07 - FORMAT.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 08 - NWOSHM.TXT.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 08 - NWOSHM.TXT.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 09 - BAYAREA.BMP.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 09 - BAYAREA.BMP.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 10 - VIRTUAVERSE.GIF.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+CHKDSK +F - 10 - VIRTUAVERSE.GIF.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 01 - RZR.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 01 - RZR.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 02 - FLT.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 02 - FLT.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 03 - DEV.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 03 - DEV.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 04 - MYTH.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 04 - MYTH.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 05 - CLS.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 05 - CLS.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 06 - TRSI.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 06 - TRSI.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 07 - PDX.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 07 - PDX.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 08 - README.NFO.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 08 - README.NFO.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 09 - FILE_ID.DIZ.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+COPY -.- A - +V - 09 - FILE_ID.DIZ.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+DEFRAG - 01 - CLUSTER 777.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+DEFRAG - 01 - CLUSTER 777.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+DEFRAG - 02 - CLUSTER 1337.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+DEFRAG - 02 - CLUSTER 1337.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 01 - @ECHO OFF.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 01 - @ECHO OFF.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 02 - PROMPT $p$g.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 02 - PROMPT $p$g.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 03 - SET PATH=C-+METAL.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 03 - SET PATH=C-+METAL.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 04 - SET SOUND=C-+CLASSICAL.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 04 - SET SOUND=C-+CLASSICAL.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 05 - SET MIDI=SYNTH-1 MAP-G MODE-1.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 05 - SET MIDI=SYNTH-1 MAP-G MODE-1.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 06 - SET BLASTER=A220 I5 D1 H5 P330.mp3
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT AUTOEXEC.BAT - 06 - SET BLASTER=A220 I5 D1 H5 P330.mp3
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 01 - DEVICE=HIMEM.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 01 - DEVICE=HIMEM.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 02 - DEVICE=EMM386.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 02 - DEVICE=EMM386.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 03 - FILES=666.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 03 - FILES=666.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 04 - BUFFERS=1770.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 04 - BUFFERS=1770.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 05 - DOS=HIGH, UMB.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+EDIT CONFIG.SYS - 05 - DOS=HIGH, UMB.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 01 - +000hex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 01 - +000hex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 02 - +1BEhex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 02 - +1BEhex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 03 - +1CEhex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 03 - +1CEhex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 04 - +1DEhex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 04 - +1DEhex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 05 - +1EEhex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 05 - +1EEhex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 06 - +1FEhex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 06 - +1FEhex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 07 - +1FFhex.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - C-+FIXMBR - 07 - +1FFhex.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 01 - DMA 0 DRAM REFRESH.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 01 - DMA 0 DRAM REFRESH.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 02 - DMA 1 SOUND CARD 8-BIT.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 02 - DMA 1 SOUND CARD 8-BIT.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 03 - DMA 2 FDD CONTROLLER.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 03 - DMA 2 FDD CONTROLLER.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 04 - DMA 3 LPT1 ECP MODE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 04 - DMA 3 LPT1 ECP MODE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 05 - DMA 4 CASCADE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 05 - DMA 4 CASCADE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 06 - DMA 5 HARD DISK.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 06 - DMA 5 HARD DISK.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 07 - DMA 6 SCSI HOST ADAPTER.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 07 - DMA 6 SCSI HOST ADAPTER.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 08 - DMA 7 SOUND CARD 16-BIT.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - DIRECT MEMORY ACCESS - 08 - DMA 7 SOUND CARD 16-BIT.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 01 - ANSI.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 01 - ANSI.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 02 - EDIT.COM.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 02 - EDIT.COM.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 03 - FDISK.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 03 - FDISK.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 04 - DISPLAY.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 04 - DISPLAY.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 05 - CHKDSK.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 05 - CHKDSK.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 06 - DEFRAG.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 06 - DEFRAG.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 07 - RAMDRIVE.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 07 - RAMDRIVE.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 08 - DBLSPACE.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 08 - DBLSPACE.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 09 - SMARTDRV.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 09 - SMARTDRV.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 10 - DISKCOPY.COM.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 10 - DISKCOPY.COM.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 11 - EMM386.EXE.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 11 - EMM386.EXE.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 12 - HIMEM.SYS.flac
+Track.ts:49 [10:53:00 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - FLOPPY DISK OVERDRIVE - 12 - HIMEM.SYS.flac
+Track.ts:43 [10:53:00 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 01 - IRQ 0 SYSTEM CLOCK.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 01 - IRQ 0 SYSTEM CLOCK.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 02 - IRQ 1 KEYBOARD.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 02 - IRQ 1 KEYBOARD.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 03 - IRQ 2 CASCADE.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 03 - IRQ 2 CASCADE.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 04 - IRQ 3 MODEM.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 04 - IRQ 3 MODEM.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 05 - IRQ 4 MOUSE.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 05 - IRQ 4 MOUSE.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 06 - IRQ 5 SOUND BLASTER.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 06 - IRQ 5 SOUND BLASTER.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 07 - IRQ 6 FLOPPY DISK DRIVE.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 07 - IRQ 6 FLOPPY DISK DRIVE.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 08 - IRQ 7 PRINTER.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 08 - IRQ 7 PRINTER.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 09 - IRQ 8 CMOS.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 09 - IRQ 8 CMOS.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 10 - IRQ 9 NETWORK.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 10 - IRQ 9 NETWORK.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 11 - IRQ 10 3DFX.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 11 - IRQ 10 3DFX.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 12 - IRQ 11 SCSI.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 12 - IRQ 11 SCSI.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 13 - IRQ 12 VGA.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 13 - IRQ 12 VGA.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 14 - IRQ 13 COPROCESSOR.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 14 - IRQ 13 COPROCESSOR.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 15 - IRQ 14 PRIMARY IDE.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 15 - IRQ 14 PRIMARY IDE.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 16 - IRQ 15 SECONDARY IDE.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - INTERRUPT REQUEST - 16 - IRQ 15 SECONDARY IDE.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 01 - 8086.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 01 - 8086.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 02 - 80186.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 02 - 80186.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 03 - 80286.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 03 - 80286.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 04 - 80386.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 04 - 80386.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 05 - 80386SX.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 05 - 80386SX.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 06 - 80486.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 06 - 80486.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 07 - 80486DX.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 07 - 80486DX.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 08 - 80486SX.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 08 - 80486SX.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 09 - 80586.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 09 - 80586.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 10 - 80686.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - PERSONAL COMPUTER - 10 - 80686.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 01 - VirtuaVerse.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 01 - VirtuaVerse.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 02 - Dangerous Corp.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 02 - Dangerous Corp.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 03 - Xenon.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 03 - Xenon.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 04 - Mag Police.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 04 - Mag Police.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 05 - Permanent Reality.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 05 - Permanent Reality.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 06 - Gigawarez.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 06 - Gigawarez.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 07 - Cracktro.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 07 - Cracktro.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 08 - DDoS Attack.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 08 - DDoS Attack.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 09 - Motördrone.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 09 - Motördrone.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 10 - AVR Graffiti Writers.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 10 - AVR Graffiti Writers.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 11 - Keygen Assault.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 11 - Keygen Assault.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 12 - My Lorraine 500.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 12 - My Lorraine 500.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 13 - Optimized User Experience.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\MASTER BOOT RECORD - VIRTUAVERSE.OST - 13 - Optimized User Experience.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - All For U.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - All For U.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Colors.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Colors.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Dance With U.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Dance With U.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Die Alone.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Die Alone.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Free From U.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Free From U.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - I'll Never Be.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - I'll Never Be.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Negative Thoughts.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Negative Thoughts.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Not A Love Song.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Not A Love Song.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Repeat.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Repeat.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Panda Eyes - Without U.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Panda Eyes - Without U.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Sam Smith v.s Nero - STAY WITH ME PROMIES.mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Sam Smith v.s Nero - STAY WITH ME PROMIES.mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex & 12th Planet & Kill The Noise - Burst VIP (cut).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex & 12th Planet & Kill The Noise - Burst VIP (cut).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex & 12th Planet & Kill The Noise - This is How We Do It Right On Time (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex & 12th Planet & Kill The Noise - This is How We Do It Right On Time (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex & 12thPlanet & Kill The Noise - Right On Time (VIP 2) (cut).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex & 12thPlanet & Kill The Noise - Right On Time (VIP 2) (cut).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex & Alvin Risk - Try It Out VIP (cut).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex & Alvin Risk - Try It Out VIP (cut).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex & Diplo - Dirty Vibe VIP (cut).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex & Diplo - Dirty Vibe VIP (cut).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Change Stranger (VIP Edit).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Change Stranger (VIP Edit).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Devils Daft (VIP Edit).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Devils Daft (VIP Edit).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Devils Den (Eptic Intro).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Devils Den (Eptic Intro).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - ECHOSTAGE INTRO.mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - ECHOSTAGE INTRO.mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Hell Cat Change (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Hell Cat Change (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Kill Everybody (Demo) (cut).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Kill Everybody (Demo) (cut).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Kill Everybody (DnB Drive) {mp3 320}.mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Kill Everybody (DnB Drive) {mp3 320}.mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Levels Terror (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Levels Terror (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Maad City Ruffneck (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Maad City Ruffneck (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - RIOT OUT FULL.mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - RIOT OUT FULL.mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Stop Drop I Need You (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Stop Drop I Need You (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Summit & With You Friends (Edit).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Summit & With You Friends (Edit).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - Wild For the Night (VIP Impact Edit).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - Wild For the Night (VIP Impact Edit).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - work bad man BAD MAN V RIOT.mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - work bad man BAD MAN V RIOT.mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex - YALA EDIT 150 BPM.mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex - YALA EDIT 150 BPM.mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skrillex v.s Smookie Illson - Fuck Those Snacks (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skrillex v.s Smookie Illson - Fuck Those Snacks (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Skybreak - Out of Frame.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Skybreak - Out of Frame.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Valentino Khan - Deep Down Low (126-106 Edit).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Valentino Khan - Deep Down Low (126-106 Edit).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 01 - Particle Arts.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 01 - Particle Arts.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 02 - Ghost Voices.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 02 - Ghost Voices.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 03 - a.i.ngel (Become God).flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 03 - a.i.ngel (Become God).flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 04 - Key.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 04 - Key.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 05 - EON BREAK.flac
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Virtual Self - Virtual Self - 05 - EON BREAK.flac
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\Wiz Khalifa v.s NGHTMARE - We Dem Boys Streets (VIP).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\Wiz Khalifa v.s NGHTMARE - We Dem Boys Streets (VIP).mp3
+Track.ts:43 [10:53:01 AM] Track: Loading full metadata for: D:\nicotine\downloads\鬱P feat. Kagamine Rin - 東京テディベア (Tokyo Teddy Bear) (Neru cover).mp3
+Track.ts:49 [10:53:01 AM] Track: Loaded full metadata for: D:\nicotine\downloads\鬱P feat. Kagamine Rin - 東京テディベア (Tokyo Teddy Bear) (Neru cover).mp3

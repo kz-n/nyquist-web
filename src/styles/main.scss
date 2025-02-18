@@ -1,27 +1,59 @@
-@import "components/_music-list.scss";
+@import "components/_card-list.scss";
 @import "components/_music-card.scss";
+@import "components/_music-compact-card.scss";
+@import "components/_compact-list.scss";
 @import "components/_floating-dock.scss";
 @import "components/_spectrum-dock.scss";
+@import "components/_debug-dock.scss";
+@import "components/_menu-bar.scss";
 @font-face {
   font-family: "Robotica";
   src: url("/src/fonts/Robotica.ttf") format("truetype");
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  color: #d5d5d5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
 .master-container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #1f1f1f;
   padding: 0;
   margin: 0;
   display: flex;
+  position: relative;
+}
+
+.app-layout {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  flex: 1;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+  position: relative;
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #666;
+  font-size: 1.2rem;
 }
 
 .nyq-logo {
   color: #d5d5d5;
   font-family: "Robotica", serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }

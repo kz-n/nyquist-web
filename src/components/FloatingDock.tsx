@@ -1,4 +1,4 @@
-import { Track } from "../object/Track";
+import { Track, TrackMetadata } from "../object/Track";
 import { Jukebox } from "../object/Jukebox";
 import { createSignal, onCleanup, onMount, createEffect } from "solid-js";
 import "../styles/components/_floating-dock.scss";
@@ -20,37 +20,23 @@ export const FloatingDock = (props: FloatingDockProps) => {
     const [currentTime, setCurrentTime] = createSignal(0);
     const [duration, setDuration] = createSignal(0);
     const [isDragging, setIsDragging] = createSignal(false);
-    const [albumArtUUID, setAlbumArtUUID] = createSignal<string>("");
-
-    const loadAlbumArt = async (track: Track) => {
-        try {
-            setAlbumArtUUID(""); // Clear current art first
-            const metadata = await window.api.getMusicMetadata(track.path);
-            if (metadata?.common?.picture?.[0]) {
-                const imageData = metadata.common.picture[0];
-                const uuid = await window.api.depotAdd({
-                    data: Array.from(imageData.data),
-                    format: imageData.format
-                }, 'blob');
-                setAlbumArtUUID(uuid);
-            }
-        } catch (error) {
-            console.error('Failed to load album art:', error);
-        }
-    };
-
-    // Watch for track changes
-    createEffect(() => {
-        if (props.currentTrack) {
-            loadAlbumArt(props.currentTrack);
-        } else {
-            setAlbumArtUUID("");
-        }
+    const [metadata, setMetadata] = createSignal<TrackMetadata>({
+        title: props.currentTrack?.fileName || 'No track playing',
+        artist: 'Unknown Artist',
+        album: 'Unknown Album'
     });
 
-    onMount(() => {
+    // Watch for track changes
+    createEffect(async () => {
         if (props.currentTrack) {
-            loadAlbumArt(props.currentTrack);
+            const trackMetadata = await props.currentTrack.getMetadata();
+            setMetadata(trackMetadata);
+        } else {
+            setMetadata({
+                title: 'No track playing',
+                artist: 'Unknown Artist',
+                album: 'Unknown Album'
+            });
         }
     });
 
@@ -61,7 +47,6 @@ export const FloatingDock = (props: FloatingDockProps) => {
         setDuration(total);
     };
 
-    // Remove onPlay handler since we're using createEffect
     onCleanup(() => {
         props.jukebox.onTimeUpdate = () => {};
     });
@@ -82,7 +67,7 @@ export const FloatingDock = (props: FloatingDockProps) => {
                     {props.currentTrack && (
                         <div class="floating-dock__album-art" 
                             style={{
-                                "background-image": albumArtUUID() ? `url(nyquist://depot/${albumArtUUID()})` : 'none'
+                                "background-image": metadata().albumArtUUID ? `url(nyquist://depot/${metadata().albumArtUUID})` : 'none'
                             }}
                         />
                     )}
@@ -90,7 +75,7 @@ export const FloatingDock = (props: FloatingDockProps) => {
                         {props.currentTrack && (
                             <>
                                 <div class="floating-dock__title">
-                                    {props.currentTrack.path.split('\\').pop()}
+                                    {metadata().title}
                                 </div>
                                 <div class="floating-dock__time">
                                     {props.currentTrack && (

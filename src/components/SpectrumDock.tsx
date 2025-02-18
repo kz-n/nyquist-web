@@ -39,7 +39,7 @@ export const SpectrumDock = (props: SpectrumDockProps) => {
         ctx.fillRect(0, 0, canvasRef.width, canvasRef.height);
 
         // Number of bars we want to display
-        const numBars = 128;
+        const numBars = 256;
         const barWidth = canvasRef.width / numBars;
 
         // Calculate frequencies for logarithmic scale

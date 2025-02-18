@@ -41,19 +41,37 @@ export class WebAudioAPI {
 
     async play(filePath: string) {
         try {
+            const startTime = new Date().toLocaleTimeString();
+            console.log(`[${startTime}] WebAudioAPI: Starting audio load for: ${filePath}`);
+
             if (this.currentSource) {
+                console.log(`[${startTime}] WebAudioAPI: Stopping current playback`);
                 this.stop();
             }
 
+            const depotStartTime = new Date().toLocaleTimeString();
+            console.log(`[${depotStartTime}] WebAudioAPI: Adding file to depot`);
             const uuid = await window.api.depotAdd(filePath, 'path');
+            
+            const fetchStartTime = new Date().toLocaleTimeString();
+            console.log(`[${fetchStartTime}] WebAudioAPI: Fetching audio data`);
             const response = await fetch(`nyquist://depot/${uuid}`);
+            
+            const decodeStartTime = new Date().toLocaleTimeString();
+            console.log(`[${decodeStartTime}] WebAudioAPI: Decoding audio data`);
             const arrayBuffer = await response.arrayBuffer();
             this.currentBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
             
+            const playStartTime = new Date().toLocaleTimeString();
+            console.log(`[${playStartTime}] WebAudioAPI: Starting playback`);
             this.offset = 0;
             this.startPlayback(0);
+
+            const endTime = new Date().toLocaleTimeString();
+            console.log(`[${endTime}] WebAudioAPI: Playback successfully started`);
         } catch (error) {
-            console.error('Error playing audio:', error);
+            const errorTime = new Date().toLocaleTimeString();
+            console.error(`[${errorTime}] WebAudioAPI: Error playing audio:`, error);
         }
     }
 
