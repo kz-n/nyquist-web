@@ -1,5 +1,6 @@
 import { createSignal, createEffect, onCleanup } from "solid-js";
 import { Track } from "../object/Track";
+import { BaseDock } from "./BaseDock";
 import "../styles/components/_debug-dock.scss";
 
 type DebugDockProps = {
@@ -67,24 +68,25 @@ export const DebugDock = (props: DebugDockProps) => {
     };
 
     return (
-        <div class="debug-dock">
-            <div class="debug-dock__content">
-                <div class="debug-dock__title">Debug Information</div>
-                <div class="debug-dock__stat">
-                    Metadata Loading: {loadedCount()}/{props.tracks.length}
-                </div>
-                <div class="debug-dock__stat">
-                    Time Elapsed: {isComplete() ? finalTime().toFixed(1) : elapsedTime().toFixed(1)}s
-                </div>
-                {isComplete() && (
-                    <div class="debug-dock__stat debug-dock__stat--complete">
-                        Complete! Total time: {finalTime().toFixed(2)}s
-                    </div>
-                )}
-                <div class="debug-dock__graph-container">
-                    {renderGraph()}
-                </div>
+        <BaseDock 
+            name="Debug Information" 
+            showName={true} 
+            class="debug-dock"
+        >
+            <div class="debug-dock__stat">
+                Metadata Loading: {loadedCount()}/{props.tracks.length}
             </div>
-        </div>
+            <div class="debug-dock__stat">
+                Time Elapsed: {isComplete() ? finalTime().toFixed(1) : elapsedTime().toFixed(1)}s
+            </div>
+            {isComplete() && (
+                <div class="debug-dock__stat debug-dock__stat--complete">
+                    Complete! Total time: {finalTime().toFixed(2)}s
+                </div>
+            )}
+            <div class="debug-dock__graph-container">
+                {renderGraph()}
+            </div>
+        </BaseDock>
     );
 }; 

@@ -5,15 +5,31 @@
     width: min(20rem, 25vw);
     z-index: 1000;
 
-    &__content {
-        background: rgba(28, 28, 28, 0.8);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        border-radius: 12px;
-        padding: 0.5rem;
-        box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.2);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+    &.base-dock--collapsed {
+        width: auto;
+    }
+
+    &.base-dock--expanded {
+        .base-dock__content {
+            transform: scale(1);
+            transform-origin: bottom right;
+        }
+    }
+
+    &.base-dock--collapsed {
+        .base-dock__content {
+            transform: scale(0.95);
+            transform-origin: bottom right;
+        }
+    }
+
+    .base-dock__content {
+        width: min(20rem, 25vw);
         height: 4.5rem;
+        padding: 0.5rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 
     &__canvas {

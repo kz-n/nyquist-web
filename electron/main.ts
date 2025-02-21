@@ -1,6 +1,6 @@
 import * as fs from "node:fs";
 import {join} from 'path'
-import {app, BrowserWindow, crashReporter, ipcMain, shell} from 'electron'
+import {app, BrowserWindow, Menu, ipcMain, shell} from 'electron'
 import * as path from "node:path";
 import {register} from "../src/protocol";
 import {Depot} from "../src/depot";
@@ -35,6 +35,7 @@ function createWindow() {
   } else {
     win.loadFile(join(process.env.DIST, 'index.html'))
   }
+  Menu.setApplicationMenu(null)
 }
 
 

@@ -2,10 +2,13 @@
 @import "components/_music-card.scss";
 @import "components/_music-compact-card.scss";
 @import "components/_compact-list.scss";
+@import "components/_base-dock.scss";
 @import "components/_floating-dock.scss";
 @import "components/_spectrum-dock.scss";
 @import "components/_debug-dock.scss";
 @import "components/_menu-bar.scss";
+@import "components/_queue-dock.scss";
+@import "components/_queue-compact-card.scss";
 @font-face {
   font-family: "Robotica";
   src: url("/src/fonts/Robotica.ttf") format("truetype");

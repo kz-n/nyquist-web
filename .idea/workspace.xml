@@ -7,21 +7,17 @@
     <list default="true" id="2ceee9c5-2677-455c-b7ec-bf3ea0d4bbe4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/electron/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/electron/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/electron/preload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/electron/preload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppLayout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AudioRoot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioRoot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DebugDock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DebugDock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FloatingDock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FloatingDock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MusicCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MusicCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MusicList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/QueueComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/QueueComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MusicCompactCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MusicCompactCard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SpectrumDock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpectrumDock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/object/Jukebox.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Jukebox.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Playlist.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Playlist.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/Track.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/Track.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/object/WebAudioAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/WebAudioAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/_debug-dock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_debug-dock.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/components/_floating-dock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_floating-dock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_music-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_music-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_music-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/_music-compact-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_music-compact-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/components/_spectrum-dock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_spectrum-dock.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
@@ -146,7 +142,8 @@
       <workItem from="1738975244367" duration="1413000" />
       <workItem from="1739118673788" duration="5402000" />
       <workItem from="1739351670570" duration="8968000" />
-      <workItem from="1739908501945" duration="5386000" />
+      <workItem from="1739908501945" duration="7577000" />
+      <workItem from="1739960069010" duration="7119000" />
     </task>
     <servers />
   </component>

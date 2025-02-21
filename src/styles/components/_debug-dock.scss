@@ -5,6 +5,14 @@
     width: 20rem;
     z-index: 1000;
 
+    &.base-dock--collapsed {
+        width: auto;
+    }
+
+    .base-dock__content {
+        transform-origin: top right;
+    }
+
     &__content {
         background: rgba(28, 28, 28, 0.8);
         backdrop-filter: blur(20px);
@@ -27,6 +35,7 @@
         font-size: 0.9rem;
         margin-bottom: 0.5rem;
         opacity: 0.8;
+        color: white;
 
         &--complete {
             color: #4CAF50;

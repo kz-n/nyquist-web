@@ -6,6 +6,16 @@
     width: min(30rem, calc(100% - 4rem));
     z-index: 1000;
 
+    &.base-dock--collapsed {
+        width: auto;
+        transform: none;
+        left: 2rem;
+    }
+
+    .base-dock__content {
+        transform-origin: bottom left;
+    }
+
     &__content {
         background: rgba(28, 28, 28, 0.8);
         backdrop-filter: blur(20px);
@@ -64,6 +74,79 @@
         display: flex;
         gap: 0.8rem;
         align-items: center;
+    }
+
+    &__volume-control {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0.25rem;
+        margin-left: 0.5rem;
+        height: 100px;
+        position: absolute;
+        bottom: calc(100% + 0.5rem);
+        background: rgba(28, 28, 28, 0.8);
+        backdrop-filter: blur(20px);
+        padding: 0.5rem;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.2s ease;
+        
+        &--visible {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &__volume-slider {
+        -webkit-appearance: none;
+        width: 4px;
+        height: 80px;
+        border-radius: 2px;
+        background: rgba(255, 255, 255, 0.1);
+        outline: none;
+        opacity: 0.7;
+        transition: opacity 0.2s;
+        writing-mode: bt-lr; /* IE */
+        -webkit-appearance: slider-vertical; /* WebKit */
+        
+        &:hover {
+            opacity: 1;
+        }
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #ffffff;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        &::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    &__volume-icon {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: color 0.2s;
+        position: relative;
+
+        &:hover {
+            color: rgba(255, 255, 255, 1);
+            
+            & + .floating-dock__volume-control {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
     }
 
     &__button {

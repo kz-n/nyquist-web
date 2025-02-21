@@ -1,15 +1,14 @@
 import { Component, createEffect, createSignal } from 'solid-js';
 import { Track } from '../object/Track';
-import { Jukebox } from '../object/Jukebox';
-import '../styles/components/_music-compact-card.scss';
+import '../styles/components/_queue-compact-card.scss';
 
-type MusicCompactCardProps = {
+type QueueCompactCardProps = {
     track: Track;
-    jukebox: Jukebox;
-    onPlay: () => void;
+    isNowPlaying?: boolean;
+    onClick?: () => void;
 }
 
-export const MusicCompactCard: Component<MusicCompactCardProps> = (props) => {
+export const QueueCompactCard: Component<QueueCompactCardProps> = (props) => {
     const [metadata, setMetadata] = createSignal<any>(null);
     const [albumArtUrl, setAlbumArtUrl] = createSignal<string>('');
 
@@ -31,43 +30,28 @@ export const MusicCompactCard: Component<MusicCompactCardProps> = (props) => {
         }
     });
 
-    const formatDuration = (seconds: number) => {
-        const minutes = Math.floor(seconds / 60);
-        const remainingSeconds = Math.floor(seconds % 60);
-        return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
-    };
-
-    const handleClick = async () => {
-        props.onPlay();
-        await props.jukebox.play(props.track);
-    };
-
     return (
-        <div class="music-compact-card" onClick={handleClick}>
-            <div class="music-compact-card__art">
+        <div 
+            class={`queue-compact-card ${props.isNowPlaying ? 'queue-compact-card--now-playing' : ''}`}
+            onClick={props.onClick}
+        >
+            <div class={`queue-compact-card__art ${props.isNowPlaying ? 'queue-compact-card__art--now-playing' : ''}`}>
                 {albumArtUrl() ? (
                     <img src={albumArtUrl()} alt="Album art" />
                 ) : (
-                    <div class="music-compact-card__art-placeholder">
+                    <div class="queue-compact-card__art-placeholder">
                         🎵
                     </div>
                 )}
             </div>
-            <div class="music-compact-card__info">
-                <span class="music-compact-card__title">
+            <div class="queue-compact-card__info">
+                <span class="queue-compact-card__title">
                     {metadata()?.common?.title || props.track.path.split('\\').pop()}
                 </span>
-                <div class="music-compact-card__details">
-                    <span class="music-compact-card__artist">
-                        {metadata()?.common?.artist || 'Unknown Artist'}
-                    </span>
-
-
-                </div>
+                <span class="queue-compact-card__artist">
+                    {metadata()?.common?.artist || 'Unknown Artist'}
+                </span>
             </div>
-            <button class="music-compact-card__play-button">
-                ▶
-            </button>
         </div>
     );
 }; 

@@ -1,6 +1,5 @@
 import {createResource, createSignal, onCleanup, Show, createEffect} from 'solid-js';
 import {Playlist} from "../object/Playlist";
-import {MusicList} from "./MusicList";
 import {WebAudioAPI} from "../object/WebAudioAPI";
 import {Track} from "../object/Track";
 import {Jukebox} from "../object/Jukebox";
@@ -12,6 +11,7 @@ import {FloatingDock} from "./FloatingDock";
 import {SpectrumDock} from "./SpectrumDock";
 import {DebugDock} from "./DebugDock";
 import {AppLayout} from "./AppLayout";
+import { QueueDock } from "./QueueDock";
 
 export const AudioRoot = () => {
     const [playlist] = createSignal(new Playlist([], [], null));
@@ -31,11 +31,12 @@ export const AudioRoot = () => {
             // Clear existing tracks
             playlist().tracks = [];
             
-            // Add new tracks
+            // Add tracks to library but not to queue
             response.forEach((path: string) => {
                 if (path && path.trim() !== '') {
                     try {
-                        playlist().tracks.push(new Track(path));
+                        const track = new Track(path);
+                        playlist().tracks.push(track);
                     } catch (error) {
                         console.error('Failed to create track for path:', path, error);
                     }
@@ -45,6 +46,15 @@ export const AudioRoot = () => {
             const jukebox = jukeboxState().jukebox;
             
             jukebox.onPlay = (track: Track) => {
+                // When a track starts playing, add the next few tracks to the queue
+                const currentIndex = playlist().tracks.indexOf(track);
+                if (currentIndex >= 0) {
+                    // Add the next 5 tracks (or remaining tracks if less) to the queue
+                    const nextTracks = playlist().tracks.slice(currentIndex + 1, currentIndex + 6);
+                    playlist().queue = [track, ...nextTracks];
+                    playlist().onModified();
+                }
+
                 setJukeboxState(prev => ({
                     ...prev,
                     currentTrack: track,
@@ -107,6 +117,7 @@ export const AudioRoot = () => {
                     jukebox={jukeboxState().jukebox}
                 />
                 <SpectrumDock webAudioAPI={webAudioAPI()} />
+                <QueueDock jukebox={jukeboxState().jukebox} />
                 <DebugDock tracks={playlist().tracks} />
                 <AppLayout jukebox={jukeboxState().jukebox} />
             </div>
